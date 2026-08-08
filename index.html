@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>🍬 百詞斬單詞本</title>
+<style>
+/* ============================ 糖果色系統 ============================ */
+:root{
+  --bg1:#FFF1F6; --bg2:#EAF4FF; --bg3:#FFFAEC;
+  --ink:#3B3548; --ink-soft:#7A7290; --line:rgba(120,110,150,.14);
+  --card:#FFFFFF;
+
+  --syn-bg:#BFF3DC; --syn-fg:#0B6B49;   /* 近義詞 */
+  --sim-bg:#C3E4FF; --sim-fg:#17568C;   /* 形近詞 */
+  --ant-bg:#FFC8D4; --ant-fg:#A82440;   /* 反義詞 */
+  --sub-bg:#E2D6FF; --sub-fg:#54399E;   /* 同義替換 */
+  --col-bg:#FFF1B8; --col-fg:#7F6100;   /* 詞組搭配 */
+  --root-bg:#FFDCC0; --root-fg:#9C5218; /* 詞根詞綴 */
+  --der-bg:#D6F2F5; --der-fg:#0F6C77;   /* 派生詞 */
+  --ex-bg:#FFFDF7;
+
+  --pos-n-bg:#FFD3E2;  --pos-n-fg:#B01B5B;
+  --pos-v-bg:#C8F5DF;  --pos-v-fg:#0B6B49;
+  --pos-adj-bg:#E4D8FF;--pos-adj-fg:#54399E;
+  --pos-adv-bg:#CDE8FF;--pos-adv-fg:#17568C;
+  --pos-other-bg:#FFE0C2;--pos-other-fg:#9C5218;
+
+  --r:18px; --shadow:0 6px 18px rgba(140,120,180,.13);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  font-family:"PingFang TC","Microsoft JhengHei","Noto Sans TC",-apple-system,Segoe UI,system-ui,sans-serif;
+  color:var(--ink); min-height:100vh; overflow-x:hidden;
+  background:
+    radial-gradient(1100px 700px at 8% -8%, var(--bg1) 0%, transparent 62%),
+    radial-gradient(1000px 700px at 100% 0%, var(--bg2) 0%, transparent 58%),
+    radial-gradient(900px 800px at 50% 110%, var(--bg3) 0%, transparent 60%),
+    #FDFBFF;
+}
+
+/* ============================ 工具列 ============================ */
+header{
+  position:sticky; top:0; z-index:50; backdrop-filter:blur(14px);
+  background:rgba(255,253,255,.86); border-bottom:1px solid var(--line);
+  padding:12px 16px 10px;
+}
+.title-row{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:10px}
+h1{font-size:22px;margin:0;letter-spacing:.5px}
+.count{font-size:13px;color:var(--ink-soft)}
+
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.tab{
+  border:none;cursor:pointer;font:inherit;font-size:14px;font-weight:600;
+  padding:7px 15px;border-radius:999px;background:#F1EDF8;color:var(--ink-soft);
+  transition:transform .12s, box-shadow .12s;
+}
+.tab:hover{transform:translateY(-1px)}
+.tab.on{color:#fff;box-shadow:var(--shadow)}
+.tab[data-pos="all"].on{background:linear-gradient(135deg,#FF9EC4,#9BB8FF)}
+.tab[data-pos="n"].on{background:#F0619A}
+.tab[data-pos="v"].on{background:#25B183}
+.tab[data-pos="adj"].on{background:#8C6BE0}
+.tab[data-pos="adv"].on{background:#4C9BE8}
+.tab[data-pos="other"].on{background:#EE9A4B}
+
+.controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.search{
+  flex:1 1 240px;min-width:180px;position:relative;
+}
+.search input{
+  width:100%;font:inherit;font-size:15px;padding:9px 14px 9px 36px;
+  border:1.5px solid var(--line);border-radius:999px;background:#fff;color:var(--ink);
+  outline:none;transition:border-color .15s, box-shadow .15s;
+}
+.search input:focus{border-color:#FFB3D0;box-shadow:0 0 0 4px rgba(255,179,208,.25)}
+.search::before{content:"🔍";position:absolute;left:13px;top:50%;transform:translateY(-50%);font-size:14px;opacity:.6}
+select,.btn{
+  font:inherit;font-size:14px;padding:8px 13px;border-radius:999px;
+  border:1.5px solid var(--line);background:#fff;color:var(--ink);cursor:pointer;
+}
+.toggle{
+  font:inherit;font-size:13.5px;font-weight:600;padding:8px 14px;border-radius:999px;
+  border:1.5px solid var(--line);background:#fff;color:var(--ink-soft);cursor:pointer;
+  transition:all .15s;
+}
+.toggle.on{background:#FFE9B0;border-color:#F5CF6A;color:#7F6100}
+.btn-pool{background:linear-gradient(135deg,#FFD9E8,#D8E6FF);border-color:transparent;font-weight:600}
+
+/* ============================ 版面 ============================ */
+.layout{display:flex;align-items:flex-start;gap:18px;padding:18px 16px 60px}
+main{flex:1 1 auto;min-width:0}
+.group-title{
+  font-size:15px;font-weight:700;color:var(--ink-soft);margin:22px 4px 10px;
+  display:flex;align-items:center;gap:10px;
+}
+.group-title::after{content:"";flex:1;height:1.5px;background:var(--line);border-radius:2px}
+.group-title:first-child{margin-top:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:14px}
+.empty{padding:60px 20px;text-align:center;color:var(--ink-soft);font-size:15px}
+
+/* ============================ 單字卡 ============================ */
+.card{
+  background:var(--card);border-radius:var(--r);box-shadow:var(--shadow);
+  padding:16px 16px 14px;position:relative;overflow:hidden;
+  border-top:5px solid #DDD;transition:transform .14s, box-shadow .14s;
+}
+.card:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(140,120,180,.2)}
+.card.dragging{opacity:.45}
+.card[data-pos="n"]{border-top-color:#F0619A}
+.card[data-pos="v"]{border-top-color:#25B183}
+.card[data-pos="adj"]{border-top-color:#8C6BE0}
+.card[data-pos="adv"]{border-top-color:#4C9BE8}
+.card[data-pos="other"]{border-top-color:#EE9A4B}
+.card.mastered{opacity:.6}
+
+.card-head{display:flex;align-items:flex-start;gap:8px}
+.word{
+  font-size:27px;font-weight:800;letter-spacing:-.3px;cursor:pointer;
+  line-height:1.15;flex:1 1 auto;word-break:break-word;
+  font-family:Georgia,"Times New Roman",serif;
+}
+.word:hover{color:#E0568F}
+.tapmark{font-size:11px;color:var(--ink-soft);font-weight:500;margin-left:7px;
+  font-family:inherit;letter-spacing:0;white-space:nowrap;vertical-align:middle}
+.card.open .tapmark{display:none}
+.head-btns{display:flex;gap:4px;flex-shrink:0;padding-top:3px}
+.ibtn{border:none;background:transparent;cursor:pointer;font-size:16px;line-height:1;
+  padding:4px;border-radius:8px;opacity:.45;transition:opacity .15s,transform .15s}
+.ibtn:hover{opacity:1;transform:scale(1.15)}
+.ibtn.active{opacity:1}
+
+.meta{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-top:7px}
+.pos-badge{font-size:11.5px;font-weight:700;padding:2.5px 9px;border-radius:999px}
+.pos-badge[data-p="n"]{background:var(--pos-n-bg);color:var(--pos-n-fg)}
+.pos-badge[data-p="v"]{background:var(--pos-v-bg);color:var(--pos-v-fg)}
+.pos-badge[data-p="adj"]{background:var(--pos-adj-bg);color:var(--pos-adj-fg)}
+.pos-badge[data-p="adv"]{background:var(--pos-adv-bg);color:var(--pos-adv-fg)}
+.pos-badge[data-p="other"]{background:var(--pos-other-bg);color:var(--pos-other-fg)}
+.guess{font-size:11px;color:var(--ink-soft);opacity:.75;cursor:help}
+.phon{font-size:12.5px;color:var(--ink-soft);font-family:"Segoe UI",sans-serif}
+.note-chip{font-size:11px;background:#F3EEFF;color:#6B57A8;padding:2px 8px;border-radius:999px}
+
+/* 中文遮蔽 */
+.zh-zone{max-height:0;opacity:0;overflow:hidden;transition:max-height .32s ease, opacity .22s ease}
+.card.open .zh-zone{max-height:4000px;opacity:1}
+
+.sec{margin-top:11px}
+.sec-label{font-size:10.5px;font-weight:700;letter-spacing:1.4px;color:var(--ink-soft);
+  text-transform:uppercase;margin-bottom:5px}
+
+.sense{font-size:14.5px;line-height:1.6;margin:2px 0}
+.sense b{color:#E0568F;font-weight:700;margin-right:5px;font-size:13px}
+.sense.hl{background:linear-gradient(transparent 58%, #FFF0A0 58%);border-radius:3px;padding:0 2px}
+
+.roots{background:var(--root-bg);border-radius:13px;padding:10px 12px}
+.root-parts{display:flex;flex-wrap:wrap;gap:6px;align-items:baseline;margin-bottom:5px}
+.root-part{background:rgba(255,255,255,.72);border-radius:9px;padding:3px 9px;font-size:13.5px}
+.root-part b{font-family:Georgia,serif;font-size:15px;color:var(--root-fg)}
+.root-part i{font-style:normal;font-size:11.5px;color:var(--root-fg);opacity:.85;margin-left:5px}
+.root-sum{font-size:13.5px;font-weight:700;color:var(--root-fg)}
+
+.mnemo{background:#FFF0F6;border-radius:13px;padding:9px 12px;font-size:13.5px;color:#B0356F}
+
+.lines{display:flex;flex-direction:column;gap:4px}
+.line{font-size:13.5px;line-height:1.5;border-radius:9px;padding:5px 9px}
+.line .en{font-family:Georgia,serif;font-weight:600}
+.line .zh{margin-left:7px;opacity:.85}
+.line.hl::after{content:"⭐";font-size:10px;margin-left:5px;vertical-align:super}
+.zone-col .line{background:var(--col-bg);color:var(--col-fg)}
+.zone-col .line.hl{box-shadow:inset 0 0 0 2px #E8B93A}
+.zone-ex .line{background:var(--ex-bg);border:1px solid var(--line);color:#4A4658}
+.zone-ex .line .en{display:block;font-weight:600;margin-bottom:2px}
+.zone-ex .line .zh{margin-left:0;display:block;font-size:13px}
+.zone-ex .src{font-size:11px;color:var(--ink-soft);display:block;margin-top:2px}
+.zone-der .line{background:var(--der-bg);color:var(--der-fg)}
+
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{
+  border:none;font:inherit;font-size:13.5px;cursor:pointer;border-radius:999px;
+  padding:5px 12px;font-family:Georgia,serif;font-weight:600;text-align:left;
+  transition:transform .12s;line-height:1.35;
+}
+.chip:hover{transform:translateY(-1.5px)}
+.chip .cz{display:none;font-family:inherit;font-weight:400;font-size:12px;opacity:.85;margin-left:6px}
+.chip.show .cz{display:inline}
+.chip.nozh{cursor:default}
+.chip.hl::before{content:"⭐";font-size:9px;vertical-align:super;margin-right:3px}
+.zone-syn .chip{background:var(--syn-bg);color:var(--syn-fg)}
+.zone-sim .chip{background:var(--sim-bg);color:var(--sim-fg)}
+.zone-ant .chip{background:var(--ant-bg);color:var(--ant-fg)}
+
+.sub{background:var(--sub-bg);border-radius:13px;padding:10px 12px;margin-bottom:6px}
+.sub-head{font-family:Georgia,serif;font-size:16px;font-weight:700;color:var(--sub-fg)}
+.sub-head small{font-family:inherit;font-weight:500;font-size:12px;margin-left:6px;opacity:.85}
+.sub-note{font-size:12.5px;line-height:1.55;color:var(--sub-fg);opacity:.9;margin-top:3px}
+.sub-ex{font-size:12.5px;margin-top:4px;color:var(--sub-fg)}
+.sub-ex b{font-family:Georgia,serif}
+
+mark{background:#FFEA8A;color:inherit;border-radius:3px;padding:0 1px}
+.srcs{margin-top:10px;font-size:10.5px;color:var(--ink-soft);opacity:.6;word-break:break-all}
+
+/* ============================ 記憶池 ============================ */
+aside{
+  flex:0 0 288px;position:sticky;top:150px;background:rgba(255,255,255,.9);
+  border-radius:var(--r);box-shadow:var(--shadow);padding:14px;
+  max-height:calc(100vh - 175px);display:flex;flex-direction:column;
+}
+aside h2{font-size:15px;margin:0 0 4px;display:flex;align-items:center;gap:6px}
+.pool-hint{font-size:11.5px;color:var(--ink-soft);margin-bottom:9px;line-height:1.5}
+.dropzone{
+  flex:1 1 auto;overflow-y:auto;min-height:130px;border:2.5px dashed #E4D9F2;
+  border-radius:14px;padding:8px;display:flex;flex-direction:column;gap:6px;
+  transition:background .15s,border-color .15s;
+}
+.dropzone.over{background:#FFF4FA;border-color:#FF9EC4}
+.dz-empty{color:var(--ink-soft);font-size:12.5px;text-align:center;padding:26px 8px;line-height:1.7}
+.pitem{
+  display:flex;align-items:center;gap:7px;background:#fff;border-radius:11px;
+  padding:6px 9px;box-shadow:0 2px 7px rgba(140,120,180,.11);cursor:grab;font-size:14px;
+  border-left:4px solid #DDD;
+}
+.pitem[data-pos="n"]{border-left-color:#F0619A}
+.pitem[data-pos="v"]{border-left-color:#25B183}
+.pitem[data-pos="adj"]{border-left-color:#8C6BE0}
+.pitem[data-pos="adv"]{border-left-color:#4C9BE8}
+.pitem[data-pos="other"]{border-left-color:#EE9A4B}
+.pitem.dragging{opacity:.4}
+.pitem .pw{flex:1;font-family:Georgia,serif;font-weight:700}
+.pitem .px{border:none;background:transparent;cursor:pointer;color:var(--ink-soft);font-size:15px;padding:0 2px}
+.pitem .px:hover{color:#D14B72}
+.pool-stats{display:flex;gap:5px;flex-wrap:wrap;margin:9px 0 8px;font-size:11px}
+.pstat{padding:2px 8px;border-radius:999px;font-weight:700}
+.pool-acts{display:flex;flex-direction:column;gap:6px}
+.pool-acts .btn{width:100%;text-align:center;font-weight:600}
+.btn-save{background:linear-gradient(135deg,#C8F5DF,#BFE8FF);border-color:transparent}
+.btn-pdf{background:linear-gradient(135deg,#FFE9B0,#FFD3E2);border-color:transparent}
+.sets-row{display:flex;gap:6px;margin-top:8px}
+.sets-row select{flex:1;min-width:0;font-size:13px;padding:7px 9px}
+
+/* 手機 */
+@media(max-width:860px){
+  .layout{flex-direction:column;padding:14px 12px 40px}
+  aside{position:static;width:100%;flex:1 1 auto;max-height:none;order:2}
+  main{order:1;width:100%}
+  .grid{grid-template-columns:1fr}
+  h1{font-size:19px}
+}
+
+/* ============================ 列印 / PDF ============================ */
+#printArea{display:none}
+@media print{
+  @page{margin:12mm}
+  body{background:#fff!important}
+  header,aside,.srcs,.head-btns,.tapmark{display:none!important}
+  .layout{display:block;padding:0}
+  body.printing main{display:none}
+  body.printing #printArea{display:block}
+  #printArea .print-head{margin-bottom:12px;border-bottom:2px solid #333;padding-bottom:6px}
+  #printArea .print-head h1{font-size:18px;margin:0}
+  #printArea .print-head p{margin:3px 0 0;font-size:12px;color:#666}
+  .grid{display:block;column-count:2;column-gap:10mm}
+  .card{
+    break-inside:avoid;page-break-inside:avoid;box-shadow:none;
+    border:1px solid #CCC;border-top-width:3px;margin-bottom:6mm;
+    display:inline-block;width:100%;padding:8px 10px;
+  }
+  .card:hover{transform:none}
+  .zh-zone{max-height:none!important;opacity:1!important;overflow:visible!important}
+  .chip .cz{display:inline!important}
+  .group-title{break-after:avoid;column-span:all;font-size:13px;color:#333}
+  .word{font-size:19px;cursor:auto}
+  .chip,.line,.sub,.roots,.mnemo{
+    -webkit-print-color-adjust:exact;print-color-adjust:exact;
+  }
+  .card,.chip,.line,.sub,.roots,.mnemo,.pos-badge{
+    -webkit-print-color-adjust:exact;print-color-adjust:exact;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="title-row">
+    <h1>🍬 百詞斬單詞本</h1>
+    <span class="count" id="count"></span>
+  </div>
+
+  <div class="tabs" id="tabs">
+    <button class="tab on" data-pos="all">全部</button>
+    <button class="tab" data-pos="n">名詞 n.</button>
+    <button class="tab" data-pos="v">動詞 v.</button>
+    <button class="tab" data-pos="adj">形容詞 adj.</button>
+    <button class="tab" data-pos="adv">副詞 adv.</button>
+    <button class="tab" data-pos="other">其他</button>
+  </div>
+
+  <div class="controls">
+    <label class="search">
+      <input id="q" type="search" placeholder="搜尋英文或中文，繁簡通用…（例：glimmer / 一線希望 / 峽谷）" autocomplete="off">
+    </label>
+    <select id="sort">
+      <option value="az">A → Z</option>
+      <option value="za">Z → A</option>
+      <option value="orig">加入順序（截圖順序）</option>
+      <option value="group">語義分組</option>
+      <option value="rich">搭配最多 → 最少</option>
+    </select>
+    <button class="toggle" id="tRevealAll">👁 全部顯示中文</button>
+    <button class="toggle" id="tOnlyHl">⭐ 只看重點</button>
+    <button class="toggle" id="tHideMastered">✅ 隱藏已掌握</button>
+  </div>
+</header>
+
+<div class="layout">
+  <main id="main"></main>
+
+  <aside>
+    <h2>🍬 記憶池</h2>
+    <div class="pool-hint">把字卡<b>拖曳</b>到下面，或點卡片上的 <b>＋</b>。池內可拖曳排序。</div>
+    <div class="dropzone" id="pool"></div>
+    <div class="pool-stats" id="poolStats"></div>
+    <div class="pool-acts">
+      <button class="btn btn-save" id="bSave">💾 儲存這組記憶詞</button>
+      <button class="btn btn-pdf" id="bPdfPool">📄 匯出記憶池 PDF</button>
+      <button class="btn btn-pdf" id="bPdfList">📄 匯出目前結果 PDF</button>
+      <button class="btn" id="bClear">🗑 清空記憶池</button>
+    </div>
+    <div class="sets-row">
+      <select id="sets"><option value="">— 已存的記憶組 —</option></select>
+      <button class="btn" id="bDelSet" title="刪除選取的記憶組">✕</button>
+    </div>
+  </aside>
+</div>
+
+<div id="printArea"></div>
+
+<script src="words.js"></script>
+<script>
+/* ============================ 狀態 ============================ */
+const LS = 'baicizhan-wordbook-v1';
+const state = Object.assign({
+  pos:'all', q:'', sort:'az',
+  revealAll:false, onlyHl:false, hideMastered:false,
+  mastered:[], pool:[], sets:{}
+}, JSON.parse(localStorage.getItem(LS) || '{}'));
+const save = () => localStorage.setItem(LS, JSON.stringify(state));
+
+const POS_LABEL = {n:'名詞 n.', v:'動詞 v.', adj:'形容詞 adj.', adv:'副詞 adv.', other:'其他'};
+const byId = id => WORDS.find(w => w.id === id);
+const esc = s => String(s == null ? '' : s)
+  .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+
+/* ============================ 搜尋（繁簡通用） ============================
+   截圖來自百詞斬，中文全是簡體；但你打字習慣繁體。
+   下面是「繁→簡」單字對照（偶數位=繁，奇數位=簡，1:1 等長），
+   查詢字串和被搜尋的文字都會先正規化，所以「峽谷」也能搜到「峡谷」。      */
+const T2S_PAIRS =
+  "與与專专業业絲丝兩两嚴严豐丰爲为為为麗丽麽么麼么義义樂乐習习書书買买爭争雲云亞亚産产產产親亲僅仅從从儀仪們们價价衆众眾众優优會会傳传傷伤體体傭佣側侧儉俭兒儿蘭兰關关興兴獸兽內内軍军沖冲衝冲決决況况準准幾几擊击劃划劉刘則则創创別别製制劑剂劍剑劇剧勁劲動动務务勵励勢势華华單单賣卖衛卫歷历曆历厲厉壓压廠厂廳厅廚厨參参雙双發发髮发變变疊叠號号嚇吓嗎吗員员響响噥哝嗇啬團团圍围圖图場场壞坏壘垒墊垫復复複复夠够頭头夾夹奪夺奮奋獎奖媽妈孫孙學学寧宁寶宝實实寵宠審审尋寻導导將将爾尔嘗尝尷尴盡尽儘尽層层峽峡幣币師师帳帐帶带幫帮廣广慶庆應应龐庞庫库開开異异張张彌弥彎弯彈弹強强歸归當当錄录徹彻徑径憶忆憂忧懷怀態态總总戀恋懇恳惡恶惱恼悅悦驚惊懼惧愛爱憤愤願愿戲戏戰战擴扩擾扰報报搶抢護护擬拟擁拥擰拧擇择攣挛擋挡揮挥損损撿捡換换據据攝摄搖摇敵敌數数鬥斗斬斩斷断無无舊旧時时顯显術术機机雜杂權权桿杆條条來来闆板極极構构標标欄栏樹树樣样橋桥檢检樓楼榮荣橫横歡欢歐欧殲歼毀毁氣气匯汇彙汇漢汉沒没澤泽潔洁淺浅測测濟济漲涨漸渐滲渗遊游潰溃滿满灘滩潛潜滅灭燈灯點点爍烁爛烂煙烟煩烦燒烧熱热狀状獨独狹狭豬猪貓猫獻献環环現现電电畫画療疗痙痉瘓痪癱瘫皺皱鹽盐監监盜盗礦矿礫砾確确礙碍禮礼離离種种積积穩稳窮穷竊窃競竞筆笔築筑簽签簡简節节範范類类係系繫系緊紧細细絕绝綠绿緣缘紅红級级紗纱紋纹線线練练組组織织經经結结繞绕繪绘給给統统續续維维綴缀緩缓縮缩羅罗恥耻聯联聰聪聲声膚肤勝胜臟脏髒脏腳脚臉脸緻致艱艰藝艺蘇苏蘋苹蕩荡蔭荫藥药營营藍蓝藹蔼慮虑虛虚雖虽補补錶表襲袭裝装見见觀观規规視视覺觉觸触計计訂订認认討讨讓让訓训議议記记講讲訝讶許许論论設设證证評评識识訴诉詞词試试詩诗誠诚話话詳详語语誤误誘诱說说誦诵請请諸诸讀读諛谀調调談谈謬谬貝贝負负貢贡財财責责敗败賬账質质販贩貧贫貴贵費费賄贿資资賦赋賽赛贏赢趨趋蹤踪車车軌轨轉转輪轮軟软轟轰輕轻輛辆辭辞邊边達达遷迁過过邁迈運运還还這这進进違违跡迹適适選选鄰邻釀酿採采裡里裏里鑒鉴針针釘钉錢钱銀银銷销銳锐鍵键長长門门閃闪閉闭問问閒闲間间悶闷鬧闹聞闻閣阁閱阅闊阔隊队陽阳陰阴陣阵階阶陸陆陳陈險险難难靜静麵面頂顶項项順顺須须顧顾預预領领題题顛颠風风飛飞飯饭飲饮飾饰飽饱駁驳駛驶驗验騎骑騷骚魚鱼鮮鲜鯨鲸鳥鸟雞鸡鳴鸣麥麦黃黄齊齐齡龄" +
+  "對对後后乾干幹干隻只鬆松鬱郁臺台檯台颱台誌志個个屬属際际該该顏颜龍龙醫医鐘钟靈灵灣湾廢废舉举腦脑遠远園园圓圆聽听農农醜丑隨随遞递頁页顆颗錯错鐵铁剛刚傑杰償偿網网楊杨齒齿廟庙勸劝辦办協协鄉乡壽寿層层濕湿嬰婴";
+const T2S = (() => { const m = new Map();
+  for (let i = 0; i + 1 < T2S_PAIRS.length; i += 2) m.set(T2S_PAIRS[i], T2S_PAIRS[i+1]);
+  return m; })();
+/* 逐字轉換，保證輸出與輸入等長 —— 高亮才能用同一組索引回切原文 */
+function norm(s){
+  let out = '';
+  for (const ch of String(s == null ? '' : s)){
+    const t = T2S.get(ch);
+    if (t !== undefined){ out += t; continue; }
+    const lo = ch.toLowerCase();
+    out += (lo.length === ch.length) ? lo : ch;
+  }
+  return out;
+}
+
+function haystack(w){
+  if (w._hay) return w._hay;
+  const bits = [w.word, w.group, w.note, w.mnemonic, w.rootSummary,
+                w.phonetic.us, w.phonetic.uk];
+  w.senses.forEach(s => bits.push(s.pos, s.zh));
+  w.roots.forEach(r => bits.push(r.part, r.zh, r.type));
+  w.derivatives.forEach(d => bits.push(d.en, d.pos, d.zh));
+  w.examples.forEach(e => bits.push(e.en, e.zh, e.src));
+  [].concat(w.collocations.basic, w.collocations.context)
+    .forEach(c => bits.push(c.en, c.zh));
+  ['synonyms','similar','antonyms'].forEach(k => w[k].forEach(x => bits.push(x.en, x.zh)));
+  w.substitutes.forEach(s => {
+    bits.push(s.en, s.pos, s.zh, s.note);
+    if (s.ex) bits.push(s.ex.en, s.ex.zh);
+  });
+  return (w._hay = norm(bits.filter(Boolean).join('  ')));
+}
+function hasHl(w){
+  if (w._hl !== undefined) return w._hl;
+  const any = a => (a||[]).some(x => x.hl);
+  return (w._hl = w.starred || any(w.senses) || any(w.examples) ||
+    any(w.collocations.basic) || any(w.collocations.context) ||
+    any(w.synonyms) || any(w.similar) || any(w.antonyms) || any(w.substitutes));
+}
+/* 高亮命中字串：在正規化字串上找位置，再用同一組索引回切「原文」，
+   所以搜「峽谷」也會把原文的「峡谷」框起來。 */
+function hi(text){
+  const raw = String(text == null ? '' : text);
+  const nq = norm(state.q.trim());
+  if (!nq) return esc(raw);
+  const nt = norm(raw);
+  let out = '', i = 0, at;
+  while ((at = nt.indexOf(nq, i)) !== -1){
+    out += esc(raw.slice(i, at)) + '<mark>' + esc(raw.slice(at, at + nq.length)) + '</mark>';
+    i = at + nq.length;
+  }
+  return out + esc(raw.slice(i));
+}
+
+/* ============================ 篩選 / 排序 ============================ */
+function visible(){
+  const q = norm(state.q.trim());
+  let list = WORDS.filter(w =>
+    (state.pos === 'all' || w.pos === state.pos) &&
+    (!state.onlyHl || hasHl(w)) &&
+    (!state.hideMastered || !state.mastered.includes(w.id)) &&
+    (!q || haystack(w).includes(q))
+  );
+  const nCol = w => w.collocations.basic.length + w.collocations.context.length;
+  const cmp = {
+    az:   (a,b) => a.word.localeCompare(b.word),
+    za:   (a,b) => b.word.localeCompare(a.word),
+    orig: () => 0,
+    group:(a,b) => a.group.localeCompare(b.group,'zh-Hant') || a.word.localeCompare(b.word),
+    rich: (a,b) => nCol(b) - nCol(a) || a.word.localeCompare(b.word),
+  }[state.sort];
+  return state.sort === 'orig' ? list : list.slice().sort(cmp);
+}
+
+/* ============================ 卡片 ============================ */
+function chipZone(cls, label, arr){
+  if (!arr || !arr.length) return '';
+  return `<div class="sec ${cls}"><div class="sec-label">${label}</div><div class="chips">` +
+    arr.map(x => {
+      const zh = (x.zh || '').trim();
+      return `<button class="chip${x.hl?' hl':''}${zh?'':' nozh'}"${zh?'':' disabled'}>` +
+             `${hi(x.en)}${zh ? `<span class="cz">${hi(zh)}</span>` : ''}</button>`;
+    }).join('') + '</div></div>';
+}
+function lineZone(cls, label, arr, opt){
+  if (!arr || !arr.length) return '';
+  return `<div class="sec ${cls}"><div class="sec-label">${label}</div><div class="lines">` +
+    arr.map(x => {
+      const en = x.en ? `<span class="en">${hi(x.en)}</span>` : '';
+      const zh = x.zh ? `<span class="zh">${hi(x.zh)}</span>` : '';
+      const src = x.src ? `<span class="src">來源：${hi(x.src)}</span>` : '';
+      return `<div class="line${x.hl?' hl':''}">${en}${zh}${src}</div>`;
+    }).join('') + '</div></div>';
+}
+function derZone(arr){
+  if (!arr || !arr.length) return '';
+  return `<div class="sec zone-der"><div class="sec-label">派生詞</div><div class="lines">` +
+    arr.map(d => `<div class="line"><span class="en">${hi(d.en)}</span>` +
+      `<span class="zh">${hi(d.pos||'')} ${hi(d.zh||'')}</span></div>`).join('') +
+    '</div></div>';
+}
+
+function cardHTML(w, forPrint){
+  const inPool = state.pool.includes(w.id);
+  const isMast = state.mastered.includes(w.id);
+  const ph = [w.phonetic.us && '美 ' + w.phonetic.us, w.phonetic.uk && '英 ' + w.phonetic.uk]
+             .filter(Boolean).join('　');
+
+  let body = '';
+  if (w.senses.length)
+    body += `<div class="sec">` + w.senses.map(s =>
+      `<div class="sense${s.hl?' hl':''}"><b>${esc(s.pos)}</b>${hi(s.zh)}</div>`).join('') + `</div>`;
+
+  if (w.roots.length || w.rootSummary){
+    body += `<div class="sec"><div class="sec-label">詞根詞綴</div><div class="roots">`;
+    if (w.roots.length)
+      body += `<div class="root-parts">` + w.roots.map(r =>
+        `<span class="root-part"><b>${hi(r.part)}</b><i>${hi(r.zh)}${r.type?'・'+esc(r.type):''}</i></span>`
+      ).join('<span style="opacity:.4">–</span>') + `</div>`;
+    if (w.rootSummary) body += `<div class="root-sum">${hi(w.rootSummary)}</div>`;
+    body += `</div></div>`;
+  }
+  if (w.mnemonic) body += `<div class="sec"><div class="sec-label">小斬助記</div><div class="mnemo">${hi(w.mnemonic)}</div></div>`;
+
+  if (w.substitutes.length){
+    body += `<div class="sec"><div class="sec-label">同義替換</div>` + w.substitutes.map(s =>
+      `<div class="sub">
+        <div class="sub-head">${hi(s.en)}<small>${hi(s.pos||'')} ${hi(s.zh||'')}</small></div>
+        ${s.note ? `<div class="sub-note">${hi(s.note)}</div>` : ''}
+        ${s.ex ? `<div class="sub-ex"><b>${hi(s.ex.en)}</b> ${hi(s.ex.zh)}</div>` : ''}
+      </div>`).join('') + `</div>`;
+  }
+
+  body += lineZone('zone-col', '詞組搭配・基礎', w.collocations.basic);
+  body += lineZone('zone-col', '詞組搭配・語境', w.collocations.context);
+  body += derZone(w.derivatives);
+  body += lineZone('zone-ex', '例句', w.examples);
+  body += chipZone('zone-syn', '近義詞', w.synonyms);
+  body += chipZone('zone-sim', '形近詞', w.similar);
+  body += chipZone('zone-ant', '反義詞', w.antonyms);
+
+  return `<article class="card${forPrint||state.revealAll?' open':''}${isMast?' mastered':''}"
+      data-pos="${w.pos}" data-id="${w.id}" ${forPrint?'':'draggable="true"'}>
+    <div class="card-head">
+      <div class="word">${hi(w.word)}<span class="tapmark">點我看中文</span></div>
+      <div class="head-btns">
+        <button class="ibtn btn-add${inPool?' active':''}" title="加入記憶池">${inPool?'✅':'＋'}</button>
+        <button class="ibtn btn-mast${isMast?' active':''}" title="標記已掌握">${isMast?'🏅':'○'}</button>
+      </div>
+    </div>
+    <div class="meta">
+      <span class="pos-badge" data-p="${w.pos}">${POS_LABEL[w.pos]}</span>
+      ${w.posSure ? '' : '<span class="guess" title="截圖未標明詞性，此分類依可見的搭配用法推斷">?</span>'}
+      ${hasHl(w) ? '<span class="pos-badge" data-p="n">⭐重點</span>' : ''}
+      ${ph ? `<span class="phon">${esc(ph)}</span>` : ''}
+      ${w.note ? `<span class="note-chip">${hi(w.note)}</span>` : ''}
+      <span class="note-chip" style="background:#EEF6FF;color:#39699E">${hi(w.group)}</span>
+    </div>
+    <div class="zh-zone">${body}
+      <div class="srcs">來源截圖：${esc(w.sources.join('、'))}</div>
+    </div>
+  </article>`;
+}
+
+/* ============================ 渲染 ============================ */
+function render(){
+  const list = visible();
+  document.getElementById('count').textContent =
+    `共 ${WORDS.length} 個單字　|　目前顯示 ${list.length} 個` +
+    (state.q.trim() ? `（搜尋「${state.q.trim()}」）` : '');
+
+  const main = document.getElementById('main');
+  if (!list.length){
+    main.innerHTML = `<div class="empty">😶 沒有符合的單字<br><small>換個關鍵字，或把篩選關掉試試</small></div>`;
+    return;
+  }
+  if (state.sort === 'group'){
+    const gs = {};
+    list.forEach(w => (gs[w.group] = gs[w.group] || []).push(w));
+    main.innerHTML = Object.keys(gs).sort((a,b)=>a.localeCompare(b,'zh-Hant')).map(g =>
+      `<div class="group-title">${esc(g)}　<small style="font-weight:500">${gs[g].length}</small></div>
+       <div class="grid">${gs[g].map(w => cardHTML(w)).join('')}</div>`).join('');
+  } else {
+    main.innerHTML = `<div class="grid">${list.map(w => cardHTML(w)).join('')}</div>`;
+  }
+  renderPool();
+}
+
+function renderPool(){
+  const pool = document.getElementById('pool');
+  if (!state.pool.length){
+    pool.innerHTML = `<div class="dz-empty">把字卡拖來這裡 🍬<br>或點卡片右上角的 ＋</div>`;
+  } else {
+    pool.innerHTML = state.pool.map(id => {
+      const w = byId(id); if (!w) return '';
+      return `<div class="pitem" draggable="true" data-id="${w.id}" data-pos="${w.pos}">
+        <span class="pw">${esc(w.word)}</span>
+        <button class="px" title="移除">✕</button></div>`;
+    }).join('');
+  }
+  const cnt = {};
+  state.pool.forEach(id => { const w = byId(id); if (w) cnt[w.pos] = (cnt[w.pos]||0)+1; });
+  document.getElementById('poolStats').innerHTML =
+    `<span class="pstat" style="background:#F1EDF8;color:#7A7290">共 ${state.pool.length} 個</span>` +
+    Object.keys(cnt).map(p =>
+      `<span class="pstat" style="background:var(--pos-${p}-bg);color:var(--pos-${p}-fg)">${POS_LABEL[p]} ${cnt[p]}</span>`
+    ).join('');
+  renderSets();
+}
+
+function renderSets(){
+  const sel = document.getElementById('sets');
+  const keys = Object.keys(state.sets);
+  sel.innerHTML = `<option value="">— 已存的記憶組 (${keys.length}) —</option>` +
+    keys.map(k => `<option value="${esc(k)}">${esc(k)}（${state.sets[k].length}）</option>`).join('');
+}
+
+/* ============================ 互動 ============================ */
+document.getElementById('tabs').addEventListener('click', e => {
+  const t = e.target.closest('.tab'); if (!t) return;
+  state.pos = t.dataset.pos; save();
+  [...document.querySelectorAll('.tab')].forEach(x => x.classList.toggle('on', x === t));
+  render();
+});
+let qt;
+document.getElementById('q').addEventListener('input', e => {
+  clearTimeout(qt); qt = setTimeout(() => { state.q = e.target.value; save(); render(); }, 130);
+});
+document.getElementById('sort').addEventListener('change', e => { state.sort = e.target.value; save(); render(); });
+
+function toggleBtn(id, key){
+  const b = document.getElementById(id);
+  b.classList.toggle('on', state[key]);
+  b.addEventListener('click', () => { state[key] = !state[key]; save(); b.classList.toggle('on', state[key]); render(); });
+}
+toggleBtn('tRevealAll','revealAll');
+toggleBtn('tOnlyHl','onlyHl');
+toggleBtn('tHideMastered','hideMastered');
+
+/* 卡片：點英文顯示中文 / 色卡各自顯示 / ＋加入池 / 已掌握 */
+document.getElementById('main').addEventListener('click', e => {
+  const card = e.target.closest('.card'); if (!card) return;
+  const id = card.dataset.id;
+
+  const chip = e.target.closest('.chip');
+  if (chip){ if (!chip.classList.contains('nozh')) chip.classList.toggle('show'); return; }
+
+  if (e.target.closest('.btn-add')){
+    const i = state.pool.indexOf(id);
+    if (i >= 0) state.pool.splice(i,1); else state.pool.push(id);
+    save(); render(); return;
+  }
+  if (e.target.closest('.btn-mast')){
+    const i = state.mastered.indexOf(id);
+    if (i >= 0) state.mastered.splice(i,1); else state.mastered.push(id);
+    save(); render(); return;
+  }
+  if (e.target.closest('.word')){ card.classList.toggle('open'); return; }
+});
+
+/* 拖曳：卡片 → 記憶池 */
+let dragId = null;
+document.getElementById('main').addEventListener('dragstart', e => {
+  const card = e.target.closest('.card'); if (!card) return;
+  dragId = card.dataset.id;
+  e.dataTransfer.setData('text/plain', dragId);
+  e.dataTransfer.effectAllowed = 'copy';
+  card.classList.add('dragging');
+});
+document.getElementById('main').addEventListener('dragend', e => {
+  const c = e.target.closest('.card'); if (c) c.classList.remove('dragging'); dragId = null;
+});
+
+const pool = document.getElementById('pool');
+pool.addEventListener('dragover', e => { e.preventDefault(); pool.classList.add('over'); });
+pool.addEventListener('dragleave', () => pool.classList.remove('over'));
+pool.addEventListener('drop', e => {
+  e.preventDefault(); pool.classList.remove('over');
+  const id = e.dataTransfer.getData('text/plain') || dragId;
+  if (!id || !byId(id)) return;
+  if (reorderId){                                  // 池內排序
+    const from = state.pool.indexOf(reorderId);
+    if (from >= 0){
+      state.pool.splice(from,1);
+      const after = [...pool.querySelectorAll('.pitem:not(.dragging)')]
+        .find(el => e.clientY < el.getBoundingClientRect().top + el.offsetHeight/2);
+      const to = after ? state.pool.indexOf(after.dataset.id) : state.pool.length;
+      state.pool.splice(to < 0 ? state.pool.length : to, 0, reorderId);
+    }
+    reorderId = null;
+  } else if (!state.pool.includes(id)){
+    state.pool.push(id);
+  }
+  save(); render();
+});
+
+/* 池內：拖曳排序 / 移除 */
+let reorderId = null;
+pool.addEventListener('dragstart', e => {
+  const it = e.target.closest('.pitem'); if (!it) return;
+  reorderId = it.dataset.id;
+  e.dataTransfer.setData('text/plain', reorderId);
+  it.classList.add('dragging');
+});
+pool.addEventListener('dragend', e => {
+  const it = e.target.closest('.pitem'); if (it) it.classList.remove('dragging');
+});
+pool.addEventListener('click', e => {
+  const x = e.target.closest('.px'); if (!x) return;
+  const id = x.closest('.pitem').dataset.id;
+  state.pool = state.pool.filter(i => i !== id);
+  save(); render();
+});
+
+document.getElementById('bClear').addEventListener('click', () => {
+  if (!state.pool.length) return;
+  if (confirm('清空記憶池？（已儲存的記憶組不受影響）')){ state.pool = []; save(); render(); }
+});
+
+/* 儲存 / 載入 / 刪除 記憶組 */
+document.getElementById('bSave').addEventListener('click', () => {
+  if (!state.pool.length){ alert('記憶池是空的，先拖幾個單字進來吧 🍬'); return; }
+  const d = new Date();
+  const stamp = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+  const name = prompt('這組記憶詞叫什麼名字？', `記憶組 ${stamp}`);
+  if (!name) return;
+  state.sets[name] = state.pool.slice();
+  save(); renderSets();
+  alert(`已儲存「${name}」，共 ${state.pool.length} 個單字 ✅`);
+});
+document.getElementById('sets').addEventListener('change', e => {
+  const k = e.target.value; if (!k) return;
+  state.pool = (state.sets[k] || []).filter(id => byId(id));
+  save(); render();
+});
+document.getElementById('bDelSet').addEventListener('click', () => {
+  const sel = document.getElementById('sets');
+  const k = sel.value;
+  if (!k){ alert('先在下拉選單選一個記憶組'); return; }
+  if (confirm(`刪除記憶組「${k}」？`)){ delete state.sets[k]; save(); renderSets(); }
+});
+
+/* 匯出 PDF（走瀏覽器列印，選「另存為 PDF」） */
+function printThese(words, title){
+  if (!words.length){ alert('沒有可匯出的單字'); return; }
+  const d = new Date();
+  document.getElementById('printArea').innerHTML =
+    `<div class="print-head"><h1>🍬 ${esc(title)}</h1>
+     <p>${words.length} 個單字　·　${d.toLocaleDateString('zh-TW')} 匯出　·　百詞斬單詞本</p></div>
+     <div class="grid">${words.map(w => cardHTML(w, true)).join('')}</div>`;
+  document.body.classList.add('printing');
+  const done = () => { document.body.classList.remove('printing'); window.removeEventListener('afterprint', done); };
+  window.addEventListener('afterprint', done);
+  setTimeout(() => window.print(), 60);
+}
+document.getElementById('bPdfPool').addEventListener('click', () => {
+  const sel = document.getElementById('sets').value;
+  printThese(state.pool.map(byId).filter(Boolean), sel || '記憶池');
+});
+document.getElementById('bPdfList').addEventListener('click', () => {
+  printThese(visible(), state.q.trim() ? `搜尋：${state.q.trim()}` : POS_LABEL[state.pos] || '全部單字');
+});
+
+/* 起始 */
+document.getElementById('q').value = state.q;
+document.getElementById('sort').value = state.sort;
+[...document.querySelectorAll('.tab')].forEach(t => t.classList.toggle('on', t.dataset.pos === state.pos));
+render();
+</script>
+</body>
+</html>
