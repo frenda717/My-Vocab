@@ -18,6 +18,7 @@
   --col-bg:#FFF1B8; --col-fg:#7F6100;   /* 詞組搭配 */
   --root-bg:#FFDCC0; --root-fg:#9C5218; /* 詞根詞綴 */
   --der-bg:#D6F2F5; --der-fg:#0F6C77;   /* 派生詞 */
+  --rep-bg:#FBD3F7; --rep-fg:#912A86;   /* 洋紅：被替換掉的原詞 */
   --ex-bg:#FFFDF7;
 
   --pos-n-bg:#FFD3E2;  --pos-n-fg:#B01B5B;
@@ -138,7 +139,6 @@ main{flex:1 1 auto;min-width:0}
 .pos-badge[data-p="adj"]{background:var(--pos-adj-bg);color:var(--pos-adj-fg)}
 .pos-badge[data-p="adv"]{background:var(--pos-adv-bg);color:var(--pos-adv-fg)}
 .pos-badge[data-p="other"]{background:var(--pos-other-bg);color:var(--pos-other-fg)}
-.guess{font-size:11px;color:var(--ink-soft);opacity:.75;cursor:help}
 .phon{font-size:12.5px;color:var(--ink-soft);font-family:"Segoe UI",sans-serif}
 .note-chip{font-size:11px;background:#F3EEFF;color:#6B57A8;padding:2px 8px;border-radius:999px}
 
@@ -199,7 +199,14 @@ main{flex:1 1 auto;min-width:0}
 .sub-ex b{font-family:Georgia,serif}
 
 mark{background:#FFEA8A;color:inherit;border-radius:3px;padding:0 1px}
-.srcs{margin-top:10px;font-size:10.5px;color:var(--ink-soft);opacity:.6;word-break:break-all}
+
+/* 被替換掉的原詞（洋紅） */
+.rep{background:var(--rep-bg);border-radius:13px;padding:9px 12px;
+  display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.rep .rep-en{font-family:Georgia,serif;font-size:16px;font-weight:700;color:var(--rep-fg)}
+.rep .rep-zh{font-size:13px;color:var(--rep-fg);opacity:.9}
+.rep-chip{font-size:11px;font-weight:700;background:var(--rep-bg);color:var(--rep-fg);
+  padding:2.5px 9px;border-radius:999px}
 
 /* ============================ 記憶池 ============================ */
 aside{
@@ -253,7 +260,7 @@ aside h2{font-size:15px;margin:0 0 4px;display:flex;align-items:center;gap:6px}
 @media print{
   @page{margin:12mm}
   body{background:#fff!important}
-  header,aside,.srcs,.head-btns,.tapmark{display:none!important}
+  header,aside,.head-btns,.tapmark{display:none!important}
   .layout{display:block;padding:0}
   body.printing main{display:none}
   body.printing #printArea{display:block}
@@ -271,10 +278,10 @@ aside h2{font-size:15px;margin:0 0 4px;display:flex;align-items:center;gap:6px}
   .chip .cz{display:inline!important}
   .group-title{break-after:avoid;column-span:all;font-size:13px;color:#333}
   .word{font-size:19px;cursor:auto}
-  .chip,.line,.sub,.roots,.mnemo{
+  .chip,.line,.sub,.roots,.mnemo,.rep{
     -webkit-print-color-adjust:exact;print-color-adjust:exact;
   }
-  .card,.chip,.line,.sub,.roots,.mnemo,.pos-badge{
+  .card,.chip,.line,.sub,.roots,.mnemo,.rep,.pos-badge{
     -webkit-print-color-adjust:exact;print-color-adjust:exact;
   }
 }
@@ -301,6 +308,12 @@ aside h2{font-size:15px;margin:0 0 4px;display:flex;align-items:center;gap:6px}
     <label class="search">
       <input id="q" type="search" placeholder="搜尋英文或中文，繁簡通用…（例：glimmer / 一線希望 / 峽谷）" autocomplete="off">
     </label>
+    <select id="part">
+      <option value="all">📚 全部 Part</option>
+      <option value="1">Part 1</option>
+      <option value="2">Part 2</option>
+      <option value="3">Part 3</option>
+    </select>
     <select id="sort">
       <option value="az">A → Z</option>
       <option value="za">Z → A</option>
@@ -342,7 +355,7 @@ aside h2{font-size:15px;margin:0 0 4px;display:flex;align-items:center;gap:6px}
 /* ============================ 狀態 ============================ */
 const LS = 'baicizhan-wordbook-v1';
 const state = Object.assign({
-  pos:'all', q:'', sort:'az',
+  pos:'all', q:'', sort:'az', part:'all',
   revealAll:false, onlyHl:false, hideMastered:false,
   mastered:[], pool:[], sets:{}
 }, JSON.parse(localStorage.getItem(LS) || '{}'));
@@ -390,6 +403,7 @@ function haystack(w){
     bits.push(s.en, s.pos, s.zh, s.note);
     if (s.ex) bits.push(s.ex.en, s.ex.zh);
   });
+  if (w.replaced) bits.push(w.replaced.en, w.replaced.zh);
   return (w._hay = norm(bits.filter(Boolean).join('  ')));
 }
 function hasHl(w){
@@ -419,6 +433,7 @@ function visible(){
   const q = norm(state.q.trim());
   let list = WORDS.filter(w =>
     (state.pos === 'all' || w.pos === state.pos) &&
+    (state.part === 'all' || String(w.part || 1) === String(state.part)) &&
     (!state.onlyHl || hasHl(w)) &&
     (!state.hideMastered || !state.mastered.includes(w.id)) &&
     (!q || haystack(w).includes(q))
@@ -469,6 +484,11 @@ function cardHTML(w, forPrint){
              .filter(Boolean).join('　');
 
   let body = '';
+  if (w.replaced)
+    body += `<div class="sec"><div class="sec-label">替換掉的原詞</div>
+      <div class="rep"><span class="rep-en">${hi(w.replaced.en)}</span>` +
+      `<span class="rep-zh">${hi(w.replaced.zh || '')}</span></div></div>`;
+
   if (w.senses.length)
     body += `<div class="sec">` + w.senses.map(s =>
       `<div class="sense${s.hl?' hl':''}"><b>${esc(s.pos)}</b>${hi(s.zh)}</div>`).join('') + `</div>`;
@@ -512,23 +532,26 @@ function cardHTML(w, forPrint){
     </div>
     <div class="meta">
       <span class="pos-badge" data-p="${w.pos}">${POS_LABEL[w.pos]}</span>
-      ${w.posSure ? '' : '<span class="guess" title="截圖未標明詞性，此分類依可見的搭配用法推斷">?</span>'}
       ${hasHl(w) ? '<span class="pos-badge" data-p="n">⭐重點</span>' : ''}
       ${ph ? `<span class="phon">${esc(ph)}</span>` : ''}
+      ${w.replaced ? `<span class="rep-chip">↔ 替換 ${esc(w.replaced.en)}</span>` : ''}
       ${w.note ? `<span class="note-chip">${hi(w.note)}</span>` : ''}
       <span class="note-chip" style="background:#EEF6FF;color:#39699E">${hi(w.group)}</span>
     </div>
-    <div class="zh-zone">${body}
-      <div class="srcs">來源截圖：${esc(w.sources.join('、'))}</div>
-    </div>
+    <div class="zh-zone">${body}</div>
   </article>`;
 }
 
 /* ============================ 渲染 ============================ */
 function render(){
   const list = visible();
+  const inPart = state.part === 'all'
+    ? WORDS.length
+    : WORDS.filter(w => String(w.part || 1) === String(state.part)).length;
   document.getElementById('count').textContent =
-    `共 ${WORDS.length} 個單字　|　目前顯示 ${list.length} 個` +
+    `共 ${WORDS.length} 個單字` +
+    (state.part === 'all' ? '' : `　|　Part ${state.part}：${inPart} 個`) +
+    `　|　目前顯示 ${list.length} 個` +
     (state.q.trim() ? `（搜尋「${state.q.trim()}」）` : '');
 
   const main = document.getElementById('main');
@@ -589,6 +612,7 @@ document.getElementById('q').addEventListener('input', e => {
   clearTimeout(qt); qt = setTimeout(() => { state.q = e.target.value; save(); render(); }, 130);
 });
 document.getElementById('sort').addEventListener('change', e => { state.sort = e.target.value; save(); render(); });
+document.getElementById('part').addEventListener('change', e => { state.part = e.target.value; save(); render(); });
 
 function toggleBtn(id, key){
   const b = document.getElementById(id);
@@ -726,6 +750,7 @@ document.getElementById('bPdfList').addEventListener('click', () => {
 /* 起始 */
 document.getElementById('q').value = state.q;
 document.getElementById('sort').value = state.sort;
+document.getElementById('part').value = state.part;
 [...document.querySelectorAll('.tab')].forEach(t => t.classList.toggle('on', t.dataset.pos === state.pos));
 render();
 </script>
