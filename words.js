@@ -24386,5 +24386,4378 @@ const WORDS =[
         "group":  "人物·身分·群體",
         "replaced":  null,
         "part":  1
+    },
+    {
+        "id":  "neonate",
+        "word":  "neonate",
+        "pos":  "n",
+        "posSure":  true,
+        "senses":  [
+                       {
+                           "pos":  "n.",
+                           "zh":  "新生兒",
+                           "hl":  true
+                       }
+                   ],
+        "examples":  [
+                         {
+                             "en":  "The neonate is laughing happily.",
+                             "zh":  "新生兒笑得真開心。",
+                             "hl":  true
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "neonate care",
+                                               "zh":  "新生兒護理",
+                                               "hl":  true
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "replaced":  {
+                         "en":  "infant",
+                         "zh":  "幼兒，嬰兒；嬰兒的"
+                     },
+        "group":  "人物·身分·群體",
+        "phonetic":  {
+                         "us":  "",
+                         "uk":  ""
+                     },
+        "roots":  null,
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "starred":  false,
+        "derivatives":  null,
+        "synonyms":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "part":  2
+    },
+    {
+        "id":  "ploy",
+        "word":  "ploy",
+        "phonetic":  {
+                         "us":  "/plɔɪ/",
+                         "uk":  "/plɔɪ/"
+                     },
+        "pos":  "n",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "n.",
+                           "zh":  "策略，手段",
+                           "hl":  false
+                       },
+                       {
+                           "pos":  "v.",
+                           "zh":  "橫隊變縱隊",
+                           "hl":  false
+                       }
+                   ],
+        "mnemonic":  "\"ploy\"這個詞最常見的含義是「計謀」或「策略」，比如：\"He used a clever ploy to win the game.\"（他用了一個巧妙的計謀贏得了比賽）。你還可以說 \"marketing ploy\"（營銷策略），或者 \"ploy to distract sb.\"（分散某人注意力的計謀）；再比如 \"advertising ploy\"（廣告策略）、\"ploy to outsmart sb.\"（智勝某人的策略）噢～",
+        "examples":  [
+                         {
+                             "en":  "I am figuring out a new marketing ploy in order to beat the competitors.",
+                             "zh":  "為了打敗競爭對手，我在擬出新的營銷策略。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "clever ploy",
+                                               "zh":  "巧妙的策略",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "marketing ploy",
+                                               "zh":  "營銷策略",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "political ploy",
+                                               "zh":  "政治手段",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "use a clever ploy",
+                                               "zh":  "使用巧妙策略",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "ploy to gain sympathy",
+                                               "zh":  "博取同情的手段",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "synonyms":  [
+                         {
+                             "en":  "gambit",
+                             "zh":  "開場策略；以退為進的手段",
+                             "hl":  true
+                         },
+                         {
+                             "en":  "stratagem",
+                             "zh":  "計謀，策略",
+                             "hl":  true
+                         },
+                         {
+                             "en":  "maneuver",
+                             "zh":  "策略行動；巧妙操縱",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "tactic",
+                             "zh":  "戰術，策略",
+                             "hl":  false
+                         }
+                     ],
+        "group":  "策略·計謀·手段",
+        "roots":  null,
+        "rootSummary":  "",
+        "note":  "",
+        "derivatives":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "plenary",
+        "word":  "plenary",
+        "phonetic":  {
+                         "us":  "/'pliːnəri/",
+                         "uk":  "/'pliːnəri/"
+                     },
+        "pos":  "adj",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "adj.",
+                           "zh":  "充分的，全體出席的",
+                           "hl":  true
+                       },
+                       {
+                           "pos":  "n.",
+                           "zh":  "全體會議；全會",
+                           "hl":  true
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "plen",
+                          "type":  "詞根",
+                          "zh":  "填充"
+                      },
+                      {
+                          "part":  "ary",
+                          "type":  "後綴",
+                          "zh":  "形容詞後綴"
+                      }
+                  ],
+        "rootSummary":  "具有充滿特徵的=充分的",
+        "examples":  [
+                         {
+                             "en":  "We had a plenary meeting this morning; everybody was present.",
+                             "zh":  "我們今早有一個全體會議；所有人都出席了。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "plenary session",
+                                               "zh":  "全體會議",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "plenary meeting",
+                                               "zh":  "全體會議",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "plenary powers",
+                                               "zh":  "全權",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "attend a plenary session",
+                                               "zh":  "參加全體會議",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "plenary discussion on a topic",
+                                               "zh":  "對話題的全面討論",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "synonyms":  [
+                         {
+                             "en":  "quorate",
+                             "zh":  "具有法定人數的",
+                             "hl":  true
+                         },
+                         {
+                             "en":  "unlimited",
+                             "zh":  "無限制的",
+                             "hl":  false
+                         }
+                     ],
+        "group":  "嚴格·秩序·監督",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "extend",
+        "word":  "extend",
+        "phonetic":  {
+                         "us":  "/ɪk'stend/",
+                         "uk":  "/ɪk'stend/"
+                     },
+        "pos":  "v",
+        "posSure":  true,
+        "senses":  [
+                       {
+                           "pos":  "v.",
+                           "zh":  "延伸；延長；擴大…的範圍(或影響)；擴展；涉及；伸展，展開；提供；使…竭盡全力；使延期；推廣",
+                           "hl":  true
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "ex",
+                          "type":  "前綴",
+                          "zh":  "向外"
+                      },
+                      {
+                          "part":  "tend",
+                          "type":  "詞根",
+                          "zh":  "伸展"
+                      }
+                  ],
+        "rootSummary":  "向外伸展=延伸",
+        "examples":  [
+                         {
+                             "en":  "The lane extended for a few miles.",
+                             "zh":  "這條小路延伸幾英里長。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "extend an invitation",
+                                               "zh":  "發出邀請",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "extend a deadline",
+                                               "zh":  "延長截止日期",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "extend a hand",
+                                               "zh":  "伸出手來",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "extend sb.'s heartfelt thanks",
+                                               "zh":  "向某人表示衷心的感謝",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "extend sb.'s holiday duration",
+                                               "zh":  "延長某人的假期",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "synonyms":  [
+                         {
+                             "en":  "prolong",
+                             "zh":  "延長；拉長；拖延",
+                             "hl":  true
+                         },
+                         {
+                             "en":  "spread",
+                             "zh":  "展開；散布",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "spread out",
+                             "zh":  "攤開，展開",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "broaden",
+                             "zh":  "拓寬，擴大",
+                             "hl":  false
+                         }
+                     ],
+        "group":  "數量·評估·範圍",
+        "mnemonic":  "",
+        "note":  "",
+        "starred":  false,
+        "derivatives":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "cardinal",
+        "word":  "cardinal",
+        "phonetic":  {
+                         "us":  "/'kɑːrdɪnl/",
+                         "uk":  "/'kɑːdɪnl/"
+                     },
+        "pos":  "adj",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "adj.",
+                           "zh":  "基本的；主要的",
+                           "hl":  false
+                       },
+                       {
+                           "pos":  "n.",
+                           "zh":  "紅衣主教；基數；紅衣主教鳥",
+                           "hl":  false
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "cardi",
+                          "type":  "詞根",
+                          "zh":  "支點"
+                      },
+                      {
+                          "part":  "nal",
+                          "type":  "後綴",
+                          "zh":  "形容詞後綴"
+                      }
+                  ],
+        "rootSummary":  "作為事物支點部分的=基本的",
+        "examples":  [
+                         {
+                             "en":  "Cardinal numbers are numbers that tell you how many things there are in a group.",
+                             "zh":  "基數是告訴你一組中有多少事物的數字。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "cardinal number",
+                                               "zh":  "基數詞",
+                                               "hl":  true
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "group":  "數量·評估·範圍",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "synonyms":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "keen",
+        "word":  "keen",
+        "phonetic":  {
+                         "us":  "/kiːn/",
+                         "uk":  "/kiːn/"
+                     },
+        "pos":  "adj",
+        "posSure":  true,
+        "senses":  [
+                       {
+                           "pos":  "adj.",
+                           "zh":  "熱切的；急迫的，強烈的；敏銳的；著迷的；喜愛，有興趣",
+                           "hl":  true
+                       },
+                       {
+                           "pos":  "v.",
+                           "zh":  "慟哭",
+                           "hl":  true
+                       }
+                   ],
+        "examples":  [
+                         {
+                             "en":  "The little boy is always very keen on helping others.",
+                             "zh":  "這個小男孩總是非常熱衷於幫助別人。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "keen interest",
+                                               "zh":  "濃厚的興趣",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "keen competition",
+                                               "zh":  "激烈的競爭",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "keen eye",
+                                               "zh":  "敏銳的眼光",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "sb.'s keen interest in history",
+                                               "zh":  "某人對歷史的濃厚興趣",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "sb.'s keen sense of responsibility",
+                                               "zh":  "某人的強烈責任感",
+                                               "hl":  true
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "substitutes":  [
+                            {
+                                "en":  "acute",
+                                "pos":  "adj.",
+                                "zh":  "敏銳的；嚴重的",
+                                "note":  "情感中性，常用來形容感官或智力的敏銳度極高。",
+                                "ex":  {
+                                           "en":  "an acute observer",
+                                           "zh":  "一個敏銳的觀察者"
+                                       },
+                                "hl":  false
+                            }
+                        ],
+        "group":  "愉悅·滿足·寵愛",
+        "roots":  null,
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "starred":  false,
+        "derivatives":  null,
+        "synonyms":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "invert",
+        "word":  "invert",
+        "phonetic":  {
+                         "us":  "/ɪn'vɜːrt/",
+                         "uk":  "/ɪn'vɜːt/"
+                     },
+        "pos":  "v",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "v.",
+                           "zh":  "倒置；倒轉；顛倒",
+                           "hl":  false
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "in",
+                          "type":  "前綴",
+                          "zh":  "在…內"
+                      },
+                      {
+                          "part":  "vert",
+                          "type":  "詞根",
+                          "zh":  "轉變"
+                      }
+                  ],
+        "rootSummary":  "在原本基礎上轉動=倒置",
+        "examples":  [
+                         {
+                             "en":  "The penguin inverted the book.",
+                             "zh":  "企鵝把書拿倒了。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "invert the order",
+                                               "zh":  "顛倒順序",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "invert the image",
+                                               "zh":  "翻轉圖像",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "invert the colors",
+                                               "zh":  "反轉顏色",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "substitutes":  [
+                            {
+                                "en":  "reverse",
+                                "pos":  "v.",
+                                "zh":  "顛倒；倒轉",
+                                "note":  "情感中立，常指顛倒順序或方向，比如倒車或逆轉流程。",
+                                "ex":  {
+                                           "en":  "reverse the order",
+                                           "zh":  "顛倒順序"
+                                       },
+                                "hl":  false
+                            }
+                        ],
+        "group":  "方位·形狀·結構",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "synonyms":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "groove",
+        "word":  "groove",
+        "phonetic":  {
+                         "us":  "/gruːv/",
+                         "uk":  "/gruːv/"
+                     },
+        "pos":  "n",
+        "posSure":  true,
+        "senses":  [
+                       {
+                           "pos":  "n.",
+                           "zh":  "最佳狀態；慣例；[建]凹槽",
+                           "hl":  true
+                       },
+                       {
+                           "pos":  "v.",
+                           "zh":  "在……開出槽；形成溝槽",
+                           "hl":  true
+                       }
+                   ],
+        "examples":  [
+                         {
+                             "en":  "Archaeological finds of nuts from the extinct Easter Island palm show tiny grooves, made by the teeth of Polynesian rats.",
+                             "zh":  "",
+                             "src":  "劍橋雅思閱讀11-2",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "Most sliding doors move inside the grooves.",
+                             "zh":  "大多數的滑動門都在凹槽裡移動。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "in the groove",
+                                               "zh":  "流行中；處於最佳狀態",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "groove on",
+                                               "zh":  "陶醉於",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "get into the groove",
+                                               "zh":  "進入狀態",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "the groove of the tire",
+                                               "zh":  "輪胎的溝槽",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "stuck in a groove",
+                                               "zh":  "墨守成規，照慣例行事",
+                                               "hl":  true
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "similar":  [
+                        {
+                            "en":  "grove",
+                            "zh":  "小樹林；果園",
+                            "hl":  true
+                        },
+                        {
+                            "en":  "groom",
+                            "zh":  "新郎；馬夫",
+                            "hl":  false
+                        },
+                        {
+                            "en":  "grovel",
+                            "zh":  "奴顏婢膝；搖尾乞憐；匍匐",
+                            "hl":  false
+                        }
+                    ],
+        "group":  "邊緣·細節·觸感",
+        "roots":  null,
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "starred":  false,
+        "derivatives":  null,
+        "synonyms":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "skyrocket",
+        "word":  "skyrocket",
+        "phonetic":  {
+                         "us":  "/'skaɪrɑːkɪt/",
+                         "uk":  "/'skaɪrɒkɪt/"
+                     },
+        "pos":  "v",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "v.",
+                           "zh":  "陡升，猛漲，突飛猛進",
+                           "hl":  true
+                       },
+                       {
+                           "pos":  "n.",
+                           "zh":  "流星焰火；高空探測火箭",
+                           "hl":  true
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "sky",
+                          "type":  "詞根",
+                          "zh":  "天空"
+                      },
+                      {
+                          "part":  "rocket",
+                          "type":  "詞根",
+                          "zh":  "火箭"
+                      }
+                  ],
+        "rootSummary":  "快得彷彿衝向天空的火箭=猛衝",
+        "examples":  [
+                         {
+                             "en":  "The company's revenue skyrocketed last year.",
+                             "zh":  "該公司去年的收入猛增。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "skyrocket prices",
+                                               "zh":  "價格飆升",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "skyrocket to fame",
+                                               "zh":  "一夜成名",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "skyrocket sales",
+                                               "zh":  "銷售量激增",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "see the stock prices skyrocket",
+                                               "zh":  "看到股價猛增",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "skyrocket to the top",
+                                               "zh":  "迅速躍居榜首",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "synonyms":  [
+                         {
+                             "en":  "hit the roof",
+                             "zh":  "暴漲；勃然大怒",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "shoot up",
+                             "zh":  "猛漲，激增",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "increase rapidly",
+                             "zh":  "迅速增加",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "rocket",
+                             "zh":  "飛漲，猛升",
+                             "hl":  false
+                         }
+                     ],
+        "group":  "繁榮·復甦·成長",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "terribly",
+        "word":  "terribly",
+        "phonetic":  {
+                         "us":  "/'terəbli/",
+                         "uk":  "/'terəbli/"
+                     },
+        "pos":  "adv",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "adv.",
+                           "zh":  "極度地，非常；可怕地",
+                           "hl":  true
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "terr",
+                          "type":  "詞根",
+                          "zh":  "使恐懼"
+                      },
+                      {
+                          "part":  "ib",
+                          "type":  "後綴",
+                          "zh":  "能夠…的"
+                      },
+                      {
+                          "part":  "ly",
+                          "type":  "後綴",
+                          "zh":  "副詞後綴"
+                      }
+                  ],
+        "rootSummary":  "以恐懼的方式=極度地",
+        "examples":  [
+                         {
+                             "en":  "The young man was terribly hurt and his face bore scars.",
+                             "zh":  "這個年輕人受了重傷，臉上傷痕累累。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "terribly sorry",
+                                               "zh":  "實在抱歉",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "terribly tired",
+                                               "zh":  "非常累",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "terribly sick",
+                                               "zh":  "病得很重",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "sb.'s terribly boring lecture",
+                                               "zh":  "某人極其無聊的講座",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "a terribly long wait",
+                                               "zh":  "無比漫長的等待",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "synonyms":  [
+                         {
+                             "en":  "damned",
+                             "zh":  "極其，非常",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "incredibly",
+                             "zh":  "難以置信地；極為",
+                             "hl":  true
+                         },
+                         {
+                             "en":  "appallingly",
+                             "zh":  "駭人地；糟糕透頂地",
+                             "hl":  true
+                         },
+                         {
+                             "en":  "abysmally",
+                             "zh":  "極差地，糟透地",
+                             "hl":  true
+                         }
+                     ],
+        "group":  "數量·評估·範圍",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "respective",
+        "word":  "respective",
+        "phonetic":  {
+                         "us":  "/rɪ'spektɪv/",
+                         "uk":  "/rɪ'spektɪv/"
+                     },
+        "pos":  "adj",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "adj.",
+                           "zh":  "分別的；各自的",
+                           "hl":  true
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "re",
+                          "type":  "前綴",
+                          "zh":  "再、重複"
+                      },
+                      {
+                          "part":  "spect",
+                          "type":  "詞根",
+                          "zh":  "看"
+                      },
+                      {
+                          "part":  "ive",
+                          "type":  "後綴",
+                          "zh":  "形容詞後綴"
+                      }
+                  ],
+        "rootSummary":  "各自回頭看的=分別的",
+        "derivatives":  [
+                            {
+                                "en":  "respectively",
+                                "pos":  "adv.",
+                                "zh":  "分別"
+                            }
+                        ],
+        "examples":  [
+                         {
+                             "en":  "After the party, we went back into our respective rooms.",
+                             "zh":  "派對結束後，我們回到了各自的房間。",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "Each European country has its own respective flag.",
+                             "zh":  "歐盟的每個國家都有自己的旗幟。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "in their respective fields",
+                                               "zh":  "在各自的領域",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "sb.'s respective responsibilities",
+                                               "zh":  "某人的各自責任",
+                                               "hl":  true
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "substitutes":  [
+                            {
+                                "en":  "individual",
+                                "pos":  "adj.",
+                                "zh":  "個別的；單獨的",
+                                "note":  "情感中性，常用於突出群體中每個成員的獨特性或獨立性。",
+                                "ex":  {
+                                           "en":  "individual needs",
+                                           "zh":  "個人需求"
+                                       },
+                                "hl":  false
+                            }
+                        ],
+        "group":  "數量·評估·範圍",
+        "mnemonic":  "",
+        "note":  "",
+        "synonyms":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "fetter",
+        "word":  "fetter",
+        "pos":  "n",
+        "posSure":  true,
+        "examples":  [
+                         {
+                             "en":  "The prisoner is in fetters.",
+                             "zh":  "囚犯正戴著腳鐐。",
+                             "hl":  false
+                         }
+                     ],
+        "synonyms":  [
+                         {
+                             "en":  "tie",
+                             "zh":  "束縛，牽絆",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "yoke",
+                             "zh":  "枷鎖；牛軛",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "restraint",
+                             "zh":  "約束，限制",
+                             "hl":  true
+                         },
+                         {
+                             "en":  "pinion",
+                             "zh":  "束縛；綁住雙臂",
+                             "hl":  false
+                         }
+                     ],
+        "group":  "限制·封閉·託付",
+        "roots":  null,
+        "rootSummary":  "",
+        "note":  "",
+        "derivatives":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2,
+        "phonetic":  {
+                         "us":  "/'fetər/",
+                         "uk":  "/'fetə(r)/"
+                     },
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "n.",
+                           "zh":  "腳鐐；束縛",
+                           "hl":  true
+                       },
+                       {
+                           "pos":  "v.",
+                           "zh":  "給…上腳鐐；束縛",
+                           "hl":  true
+                       }
+                   ],
+        "mnemonic":  "\"fetter\"最常見的含義是「束縛、限制」，比如：\"The poverty fetters his dream.\"（貧窮束縛了他的夢想）。你還可以說 \"fetter one's mind\"，意思是束縛思想；或者 \"fetter by regulations\"，就是被規定束縛；再比如 \"fetter one's potential\"，即束縛潛力；還有 \"fetter one's freedom\"，意為限制自由呢～",
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "break the fetter",
+                                               "zh":  "打破束縛",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "fetter of tradition",
+                                               "zh":  "傳統的束縛",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "break free from sb.'s fetter",
+                                               "zh":  "掙脫某人的束縛",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "live under the fetter",
+                                               "zh":  "活在束縛之下",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "fetter of outdated tradition",
+                                               "zh":  "過時傳統的束縛",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         }
+    },
+    {
+        "id":  "decree",
+        "word":  "decree",
+        "phonetic":  {
+                         "us":  "/dɪ'kriː/",
+                         "uk":  "/dɪ'kriː/"
+                     },
+        "pos":  "v",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "v.",
+                           "zh":  "命令，判決，頒布",
+                           "hl":  false
+                       },
+                       {
+                           "pos":  "n.",
+                           "zh":  "法令，政令",
+                           "hl":  false
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "de",
+                          "type":  "前綴",
+                          "zh":  "強調"
+                      },
+                      {
+                          "part":  "cree",
+                          "type":  "詞根",
+                          "zh":  "分辨"
+                      }
+                  ],
+        "rootSummary":  "辨別並提出決定=判決",
+        "examples":  [
+                         {
+                             "en":  "The emperor decrees that everybody must give him money.",
+                             "zh":  "皇帝命令所有人都得給他錢。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "royal decree",
+                                               "zh":  "聖旨；聖諭",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "issue a decree",
+                                               "zh":  "發布法令",
+                                               "hl":  true
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "substitutes":  [
+                            {
+                                "en":  "ordain",
+                                "pos":  "v.",
+                                "zh":  "命令，規定",
+                                "note":  "情感中立，常用於法律或宗教語境，帶有命中注定的意味。",
+                                "ex":  {
+                                           "en":  "ordain that…",
+                                           "zh":  "命令……"
+                                       },
+                                "hl":  false
+                            }
+                        ],
+        "group":  "法律·訴訟·裁決",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "synonyms":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "preserve",
+        "word":  "preserve",
+        "pos":  "n",
+        "posSure":  true,
+        "senses":  [
+                       {
+                           "pos":  "n.",
+                           "zh":  "蜜餞；果醬",
+                           "hl":  true
+                       }
+                   ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "fruit preserves",
+                                               "zh":  "水果蜜餞／果醬",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "strawberry preserves",
+                                               "zh":  "草莓果醬",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "spread preserves on sb.'s toast",
+                                               "zh":  "在某人的麵包上塗果醬",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "synonyms":  [
+                         {
+                             "en":  "marmalade",
+                             "zh":  "橘子或檸檬等水果製成的果醬",
+                             "hl":  false
+                         }
+                     ],
+        "replaced":  {
+                         "en":  "jam",
+                         "zh":  "阻塞；果醬；(使)阻塞，使塞滿"
+                     },
+        "group":  "飲食·物品·展示",
+        "phonetic":  {
+                         "us":  "",
+                         "uk":  ""
+                     },
+        "roots":  null,
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "starred":  false,
+        "derivatives":  null,
+        "examples":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "part":  2
+    },
+    {
+        "id":  "lethal",
+        "word":  "lethal",
+        "pos":  "adj",
+        "posSure":  true,
+        "senses":  [
+                       {
+                           "pos":  "adj.",
+                           "zh":  "致命的，致死的",
+                           "hl":  true
+                       }
+                   ],
+        "examples":  [
+                         {
+                             "en":  "Nobody survived the lethal accident.",
+                             "zh":  "在這場致命的事故中，無人幸免。",
+                             "hl":  true
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "a lethal dose",
+                                               "zh":  "致死劑量",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "lethal error",
+                                               "zh":  "致命錯誤",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "lethal weapon",
+                                               "zh":  "致命武器",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "synonyms":  [
+                         {
+                             "en":  "mortal",
+                             "zh":  "必有一死的；致命的",
+                             "hl":  true
+                         },
+                         {
+                             "en":  "deadly",
+                             "zh":  "致命的，殺傷力大的",
+                             "hl":  false
+                         }
+                     ],
+        "replaced":  {
+                         "en":  "fatal",
+                         "zh":  "災難性的，毀滅性的；致命的；決定性的"
+                     },
+        "group":  "破壞·衝突·犯罪",
+        "phonetic":  {
+                         "us":  "",
+                         "uk":  ""
+                     },
+        "roots":  null,
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "starred":  false,
+        "derivatives":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "part":  2
+    },
+    {
+        "id":  "lapse",
+        "word":  "lapse",
+        "phonetic":  {
+                         "us":  "/læps/",
+                         "uk":  "/læps/"
+                     },
+        "pos":  "n",
+        "posSure":  true,
+        "senses":  [
+                       {
+                           "pos":  "n.",
+                           "zh":  "失誤，過失；(時間)流逝；行為失檢",
+                           "hl":  true
+                       },
+                       {
+                           "pos":  "v.",
+                           "zh":  "背棄，放棄(宗教信仰)；退步，倒退，衰退；失效",
+                           "hl":  true
+                       }
+                   ],
+        "examples":  [
+                         {
+                             "en":  "Machines who are better than us at sticking to the moral high ground may be expected to discourage some of the lapses we presently take for granted.",
+                             "zh":  "",
+                             "src":  "劍橋雅思閱讀18-2",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "I had a lapse in judgment and put too much soap in the laundry.",
+                             "zh":  "我做了個失誤的判斷，洗衣服的時候放了太多肥皂。",
+                             "hl":  false
+                         }
+                     ],
+        "group":  "煩惱·不適·絕望",
+        "roots":  null,
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "starred":  false,
+        "derivatives":  null,
+        "collocations":  {
+                             "basic":  [
+
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "synonyms":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "grit",
+        "word":  "grit",
+        "phonetic":  {
+                         "us":  "/grɪt/",
+                         "uk":  "/grɪt/"
+                     },
+        "pos":  "n",
+        "posSure":  true,
+        "senses":  [
+                       {
+                           "pos":  "n.",
+                           "zh":  "沙粒；毅力，勇氣",
+                           "hl":  true
+                       },
+                       {
+                           "pos":  "v.",
+                           "zh":  "下定決心，咬緊牙關；在…上鋪砂礫；咬緊",
+                           "hl":  true
+                       }
+                   ],
+        "mnemonic":  "\"grit\" 最常見的含義是「勇氣」，比如：\"Despite many difficulties, she showed real grit.\"（儘管遇到許多困難，她都表現出真正的勇氣）。你還可以說 \"have the grit to do sth.\"，表示有勇氣去做某事；\"show one's grit\"，顯示某人的勇氣；或者 \"grit one's teeth\"，表示咬緊牙關堅持。此外，它還有「沙礫」的含義，比如 \"a grit of sand\"（一粒沙子）噢～",
+        "examples":  [
+                         {
+                             "en":  "He's gritting his teeth. He's freezing.",
+                             "zh":  "他正咬緊牙關，他很冷。",
+                             "src":  "黑道家族S02E13",
+                             "hl":  true
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "show grit",
+                                               "zh":  "展現毅力",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "grit one's teeth",
+                                               "zh":  "咬緊牙關",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "full of grit",
+                                               "zh":  "充滿勇氣",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "show the true grit",
+                                               "zh":  "展現真正的毅力",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "have a piece of grit in my eye",
+                                               "zh":  "眼睛裡進了一粒沙子",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "synonyms":  [
+                         {
+                             "en":  "grind",
+                             "zh":  "苦差事；碾磨",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "perseverance",
+                             "zh":  "毅力，堅持不懈",
+                             "hl":  true
+                         },
+                         {
+                             "en":  "gritstone",
+                             "zh":  "砂岩",
+                             "hl":  false
+                         }
+                     ],
+        "group":  "意志·毅力·決心",
+        "roots":  null,
+        "rootSummary":  "",
+        "note":  "",
+        "starred":  false,
+        "derivatives":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "vanquish",
+        "word":  "vanquish",
+        "phonetic":  {
+                         "us":  "/'væŋkwɪʃ/",
+                         "uk":  "/'væŋkwɪʃ/"
+                     },
+        "pos":  "v",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "v.",
+                           "zh":  "征服，擊敗",
+                           "hl":  false
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "vanqu",
+                          "type":  "詞根",
+                          "zh":  "擊敗，征服"
+                      },
+                      {
+                          "part":  "ish",
+                          "type":  "後綴",
+                          "zh":  "動詞後綴"
+                      }
+                  ],
+        "rootSummary":  "擊敗其他事物=征服",
+        "examples":  [
+                         {
+                             "en":  "The knight finally vanquished the dragon.",
+                             "zh":  "騎士最終擊敗了惡龍。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "vanquish one's fears",
+                                               "zh":  "克服恐懼",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "vanquish the enemy",
+                                               "zh":  "征服敵人",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "vanquish the opponent",
+                                               "zh":  "戰勝對手",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "synonyms":  [
+                         {
+                             "en":  "conquer",
+                             "zh":  "征服，攻克",
+                             "hl":  true
+                         },
+                         {
+                             "en":  "trounce",
+                             "zh":  "痛擊，大勝",
+                             "hl":  true
+                         },
+                         {
+                             "en":  "overcome",
+                             "zh":  "克服，戰勝",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "beat",
+                             "zh":  "打敗，擊敗",
+                             "hl":  false
+                         }
+                     ],
+        "group":  "破壞·衝突·犯罪",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "conveyance",
+        "word":  "conveyance",
+        "phonetic":  {
+                         "us":  "/kən'veɪəns/",
+                         "uk":  "/kən'veɪəns/"
+                     },
+        "pos":  "n",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "n.",
+                           "zh":  "運輸工具；財產讓與",
+                           "hl":  true
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "con",
+                          "type":  "前綴",
+                          "zh":  "共同，一起"
+                      },
+                      {
+                          "part":  "vey",
+                          "type":  "詞根",
+                          "zh":  "道路"
+                      },
+                      {
+                          "part":  "ance",
+                          "type":  "後綴",
+                          "zh":  "名詞後綴"
+                      }
+                  ],
+        "rootSummary":  "共同在道路上運送的工具=運輸工具",
+        "examples":  [
+                         {
+                             "en":  "There are many different means of conveyance — cars, trucks, planes, and so on.",
+                             "zh":  "運輸工具有很多種——汽車、卡車、飛機等等。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "mode of conveyance",
+                                               "zh":  "運輸方式",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "property conveyance",
+                                               "zh":  "財產轉讓",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "conveyance of goods by sea",
+                                               "zh":  "海上貨物運輸",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "synonyms":  [
+                         {
+                             "en":  "transmission",
+                             "zh":  "傳送，傳輸",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "transference",
+                             "zh":  "轉移，調動",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "circulation",
+                             "zh":  "流通，循環",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "expression",
+                             "zh":  "表達；表情",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "transfer",
+                             "zh":  "轉讓；轉移",
+                             "hl":  false
+                         }
+                     ],
+        "group":  "交通·運輸·船隻",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "precarious",
+        "word":  "precarious",
+        "phonetic":  {
+                         "us":  "/prɪ'keriəs/",
+                         "uk":  "/prɪ'keəriəs/"
+                     },
+        "pos":  "adj",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "adj.",
+                           "zh":  "危險的；說不定的；不穩定的；可疑的",
+                           "hl":  false
+                       }
+                   ],
+        "substitutes":  [
+                            {
+                                "en":  "perilous",
+                                "pos":  "adj.",
+                                "zh":  "危險的，險惡的",
+                                "note":  "情感負面，常描述充滿巨大且即時危險的旅程或處境。",
+                                "ex":  {
+                                           "en":  "a perilous journey",
+                                           "zh":  "一次艱險的旅程"
+                                       },
+                                "hl":  false
+                            }
+                        ],
+        "group":  "煩惱·不適·絕望",
+        "roots":  null,
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "examples":  null,
+        "synonyms":  null,
+        "antonyms":  null,
+        "replaced":  null,
+        "part":  2,
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "sb.'s precarious health condition",
+                                               "zh":  "某人的健康狀況不穩定",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "similar":  [
+                        {
+                            "en":  "precocious",
+                            "zh":  "早慧的；過早發育的；早熟的",
+                            "hl":  true
+                        },
+                        {
+                            "en":  "precious",
+                            "zh":  "珍貴的，寶貴的；珍奇的；珍稀的",
+                            "hl":  false
+                        },
+                        {
+                            "en":  "vicarious",
+                            "zh":  "發同感的；代替別人做的；代理的，代替的",
+                            "hl":  true
+                        }
+                    ]
+    },
+    {
+        "id":  "droop",
+        "word":  "droop",
+        "phonetic":  {
+                         "us":  "/druːp/",
+                         "uk":  "/druːp/"
+                     },
+        "pos":  "v",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "v.",
+                           "zh":  "低垂，凋萎，萎靡",
+                           "hl":  false
+                       },
+                       {
+                           "pos":  "n.",
+                           "zh":  "下垂；消沉",
+                           "hl":  false
+                       }
+                   ],
+        "examples":  [
+                         {
+                             "en":  "The flowers drooped in the sun.",
+                             "zh":  "花朵在陽光下枯萎了。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "droop down",
+                                               "zh":  "下垂",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "droop with fatigue",
+                                               "zh":  "疲憊消沉",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "flowers droop",
+                                               "zh":  "花兒枯萎",
+                                               "hl":  true
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "substitutes":  [
+                            {
+                                "en":  "wilt",
+                                "pos":  "v.",
+                                "zh":  "(植物)枯萎，凋謝；(人)萎靡不振",
+                                "note":  "情感中性，多指植物因缺水或高溫而變蔫、枯萎的狀態。",
+                                "ex":  {
+                                           "en":  "wilt in the heat",
+                                           "zh":  "在酷熱中枯萎"
+                                       },
+                                "hl":  true
+                            }
+                        ],
+        "group":  "煩惱·不適·絕望",
+        "roots":  null,
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "synonyms":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "conceivable",
+        "word":  "conceivable",
+        "phonetic":  {
+                         "us":  "/kən'siːvəbl/",
+                         "uk":  "/kən'siːvəbl/"
+                     },
+        "pos":  "adj",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "adj.",
+                           "zh":  "想得到的，可想像的；可能的",
+                           "hl":  true
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "con",
+                          "type":  "前綴",
+                          "zh":  "強調"
+                      },
+                      {
+                          "part":  "ceiv",
+                          "type":  "詞根",
+                          "zh":  "拿，抓住"
+                      },
+                      {
+                          "part":  "able",
+                          "type":  "後綴",
+                          "zh":  "能夠…的"
+                      }
+                  ],
+        "rootSummary":  "可共同抓取到的=可想像的",
+        "examples":  [
+                         {
+                             "en":  "It's conceivable that she'll win the scholarship, because she studies so hard.",
+                             "zh":  "不難看出，她得到獎學金是因為她學習非常用功。",
+                             "hl":  false
+                         }
+                     ],
+        "group":  "認知·知識·學習",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2,
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "conceivable idea",
+                                               "zh":  "可想像的想法",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "explore all conceivable options",
+                                               "zh":  "探尋一切可能的選擇",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "overcome any conceivable obstacles",
+                                               "zh":  "克服任何可能的障礙",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "broaden sb.'s conceivable horizons",
+                                               "zh":  "拓寬某人的認知視野",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "all the conceivable risks",
+                                               "zh":  "所有可能的風險",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "synonyms":  [
+                         {
+                             "en":  "possible",
+                             "zh":  "可能的",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "plausible",
+                             "zh":  "貌似合理的，說得通的",
+                             "hl":  true
+                         },
+                         {
+                             "en":  "credible",
+                             "zh":  "可信的，可靠的",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "accessible",
+                             "zh":  "可理解的；可接近的",
+                             "hl":  true
+                         },
+                         {
+                             "en":  "believable",
+                             "zh":  "可信的",
+                             "hl":  true
+                         }
+                     ]
+    },
+    {
+        "id":  "calamity",
+        "word":  "calamity",
+        "phonetic":  {
+                         "us":  "/kə'læməti/",
+                         "uk":  "/kə'læməti/"
+                     },
+        "pos":  "n",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "n.",
+                           "zh":  "災難",
+                           "hl":  false
+                       }
+                   ],
+        "examples":  [
+                         {
+                             "en":  "A great calamity is occurring, how can we survive?",
+                             "zh":  "巨大的災難將要發生，我們該如何倖存？",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "natural calamity",
+                                               "zh":  "自然災害",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "economic calamity",
+                                               "zh":  "經濟災難",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "avoid calamity",
+                                               "zh":  "避免災難",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "survive the calamity unscathed",
+                                               "zh":  "毫髮無損地度過災難",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "substitutes":  [
+                            {
+                                "en":  "catastrophe",
+                                "pos":  "n.",
+                                "zh":  "大災難；浩劫",
+                                "note":  "情感負面，強調範圍廣、影響深遠的毀滅性災禍。",
+                                "ex":  {
+                                           "en":  "a natural catastrophe",
+                                           "zh":  "自然浩劫"
+                                       },
+                                "hl":  false
+                            }
+                        ],
+        "group":  "煩惱·不適·絕望",
+        "roots":  null,
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "synonyms":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "render",
+        "word":  "render",
+        "phonetic":  {
+                         "us":  "/'rendər/",
+                         "uk":  "/'rendə(r)/"
+                     },
+        "pos":  "v",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "v.",
+                           "zh":  "使成為，致使，使處於(某種狀態)；提供，給予；(以某種方式)表達，表現；翻譯；粉刷，往(牆上)抹灰；將(脂肪)熬成油，使熔化；(提供)服務；遞交；捨棄",
+                           "hl":  true
+                       },
+                       {
+                           "pos":  "n.",
+                           "zh":  "粉刷，打底，交納",
+                           "hl":  false
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "ren",
+                          "type":  "前綴",
+                          "zh":  "回，返"
+                      },
+                      {
+                          "part":  "der",
+                          "type":  "詞根",
+                          "zh":  "給予"
+                      }
+                  ],
+        "rootSummary":  "給予某物的行為=提供",
+        "examples":  [
+                         {
+                             "en":  "The earthquake rendered hundreds of people homeless.",
+                             "zh":  "地震使數百人無家可歸。",
+                             "hl":  true
+                         },
+                         {
+                             "en":  "No. That photo has been rendered irrelevant.",
+                             "zh":  "不，那照片已經沒有意義了。",
+                             "src":  "緋聞女孩 S05E14",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "render assistance",
+                                               "zh":  "提供幫助",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "render a service",
+                                               "zh":  "提供服務",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "render an opinion",
+                                               "zh":  "發表意見",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "render sb.'s work useless",
+                                               "zh":  "使某人的工作無用",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "render sb.'s efforts fruitless",
+                                               "zh":  "使某人的努力無效",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "group":  "限制·封閉·託付",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "synonyms":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "lavish",
+        "word":  "lavish",
+        "phonetic":  {
+                         "us":  "/'lævɪʃ/",
+                         "uk":  "/'lævɪʃ/"
+                     },
+        "pos":  "adj",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "adj.",
+                           "zh":  "奢華的；鋪張浪費的；過分慷慨的；大量的",
+                           "hl":  false
+                       },
+                       {
+                           "pos":  "v.",
+                           "zh":  "浪費；慷慨給予",
+                           "hl":  false
+                       }
+                   ],
+        "substitutes":  [
+                            {
+                                "en":  "opulent",
+                                "pos":  "adj.",
+                                "zh":  "華麗的；富裕的",
+                                "note":  "情感中性，常用於描繪極其富有且奢華的場面或生活方式。",
+                                "ex":  {
+                                           "en":  "an opulent lifestyle",
+                                           "zh":  "奢華的生活方式"
+                                       },
+                                "hl":  false
+                            }
+                        ],
+        "group":  "愉悅·滿足·寵愛",
+        "roots":  null,
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "examples":  null,
+        "collocations":  {
+                             "basic":  [
+
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "synonyms":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "fabric",
+        "word":  "fabric",
+        "phonetic":  {
+                         "us":  "/'fæbrɪk/",
+                         "uk":  "/'fæbrɪk/"
+                     },
+        "pos":  "n",
+        "posSure":  true,
+        "senses":  [
+                       {
+                           "pos":  "n.",
+                           "zh":  "布料，織物；質地；(社會、機構等的)結構；面料",
+                           "hl":  true
+                       }
+                   ],
+        "derivatives":  [
+                            {
+                                "en":  "fabricated",
+                                "pos":  "adj.",
+                                "zh":  "裝配式的"
+                            },
+                            {
+                                "en":  "fabrication",
+                                "pos":  "n.",
+                                "zh":  "裝配；捏造"
+                            },
+                            {
+                                "en":  "fabricate",
+                                "pos":  "v.",
+                                "zh":  "捏造，編造"
+                            }
+                        ],
+        "examples":  [
+                         {
+                             "en":  "He suggests considering the weave of the fabric.",
+                             "zh":  "他建議考慮布料的編織。",
+                             "src":  "The Guardian（衛報）",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "fabric store",
+                                               "zh":  "布料商店",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "fabric softener",
+                                               "zh":  "衣物柔順劑",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "fabric of society",
+                                               "zh":  "社會結構",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "choose the right fabric for sb.'s dress",
+                                               "zh":  "為某人的裙子選擇合適的面料",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "inspect the quality of the fabric",
+                                               "zh":  "檢查面料的質量",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "similar":  [
+                        {
+                            "en":  "fracas",
+                            "zh":  "喧嚷，吵鬧，爭論，論戰",
+                            "hl":  true
+                        },
+                        {
+                            "en":  "farce",
+                            "zh":  "鬧劇；笑劇；胡鬧",
+                            "hl":  true
+                        },
+                        {
+                            "en":  "fable",
+                            "zh":  "寓言，童話",
+                            "hl":  true
+                        }
+                    ],
+        "substitutes":  [
+                            {
+                                "en":  "textile",
+                                "pos":  "n.",
+                                "zh":  "紡織品，織物",
+                                "note":  "情感中性，更多用於工業或商業語境，泛指所有紡織材料。",
+                                "ex":  {
+                                           "en":  "the textile industry",
+                                           "zh":  "紡織工業"
+                                       },
+                                "hl":  false
+                            }
+                        ],
+        "group":  "衣著·外觀·風格",
+        "roots":  null,
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "starred":  false,
+        "synonyms":  null,
+        "antonyms":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "provincial",
+        "word":  "provincial",
+        "phonetic":  {
+                         "us":  "/prə'vɪnʃl/",
+                         "uk":  "/prə'vɪnʃl/"
+                     },
+        "pos":  "adj",
+        "posSure":  true,
+        "senses":  [
+                       {
+                           "pos":  "adj.",
+                           "zh":  "省的；地方性的；偏狹的；守舊的，迂腐的",
+                           "hl":  false
+                       },
+                       {
+                           "pos":  "n.",
+                           "zh":  "地方人民；鄉下人；外地人",
+                           "hl":  true
+                       }
+                   ],
+        "derivatives":  [
+                            {
+                                "en":  "provincially",
+                                "pos":  "adv.",
+                                "zh":  "地方性地"
+                            },
+                            {
+                                "en":  "provincialism",
+                                "pos":  "n.",
+                                "zh":  "方言；地方主義"
+                            }
+                        ],
+        "examples":  [
+                         {
+                             "en":  "Toronto is the provincial capital of Ontario province.",
+                             "zh":  "多倫多是安大略省的省會城市。",
+                             "hl":  false
+                         }
+                     ],
+        "substitutes":  [
+                            {
+                                "en":  "regional",
+                                "pos":  "adj.",
+                                "zh":  "地區的；區域性的",
+                                "note":  "情感中性，指代比國家小但比城市大的特定地理或行政區域。",
+                                "ex":  {
+                                           "en":  "regional government",
+                                           "zh":  "地區政府"
+                                       },
+                                "hl":  false
+                            }
+                        ],
+        "group":  "邊緣·細節·觸感",
+        "roots":  null,
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "starred":  false,
+        "collocations":  {
+                             "basic":  [
+
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "synonyms":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "obnoxious",
+        "word":  "obnoxious",
+        "phonetic":  {
+                         "us":  "/əb'nɑːkʃəs/",
+                         "uk":  "/əb'nɒkʃəs/"
+                     },
+        "pos":  "adj",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "adj.",
+                           "zh":  "非常討厭的；可憎的",
+                           "hl":  false
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "ob",
+                          "type":  "前綴",
+                          "zh":  "對，朝向"
+                      },
+                      {
+                          "part":  "nox",
+                          "type":  "詞根",
+                          "zh":  "傷害"
+                      },
+                      {
+                          "part":  "ious",
+                          "type":  "後綴",
+                          "zh":  "形容詞後綴"
+                      }
+                  ],
+        "rootSummary":  "受到有害東西影響的=非常討厭的",
+        "examples":  [
+                         {
+                             "en":  "I'll get that obnoxious ant before it gets me!",
+                             "zh":  "我要在那隻討厭的螞蟻叮到我之前抓住牠。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "obnoxious behavior",
+                                               "zh":  "令人討厭的行為",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "obnoxious person",
+                                               "zh":  "令人討厭的人",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "avoid sb.'s obnoxious behavior",
+                                               "zh":  "避開某人的惡劣行為",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "group":  "煩惱·不適·絕望",
+        "mnemonic":  "",
+        "note":  "",
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2,
+        "derivatives":  [
+                            {
+                                "en":  "obnoxiously",
+                                "pos":  "adv.",
+                                "zh":  "討厭地"
+                            }
+                        ],
+        "synonyms":  [
+                         {
+                             "en":  "loathsome",
+                             "zh":  "令人厭惡的",
+                             "hl":  true
+                         },
+                         {
+                             "en":  "abominable",
+                             "zh":  "討厭的，令人憎惡的",
+                             "hl":  true
+                         },
+                         {
+                             "en":  "insufferable",
+                             "zh":  "無法忍受的",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "unbearable",
+                             "zh":  "難以忍受的",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "objectionable",
+                             "zh":  "令人不快的，會引起反對的",
+                             "hl":  false
+                         }
+                     ]
+    },
+    {
+        "id":  "halt",
+        "word":  "halt",
+        "phonetic":  {
+                         "us":  "/hɔːlt/",
+                         "uk":  "/hɔːlt/"
+                     },
+        "pos":  "v",
+        "posSure":  true,
+        "senses":  [
+                       {
+                           "pos":  "v.",
+                           "zh":  "使停止；止步；立定；跛行；猶豫退縮；暫停",
+                           "hl":  true
+                       },
+                       {
+                           "pos":  "n.",
+                           "zh":  "停止",
+                           "hl":  true
+                       },
+                       {
+                           "pos":  "adj.",
+                           "zh":  "瘸的",
+                           "hl":  false
+                       }
+                   ],
+        "examples":  [
+                         {
+                             "en":  "You should halt when you see somebody make this gesture.",
+                             "zh":  "看到有人做出這個手勢時，你應該止步。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "come to a halt",
+                                               "zh":  "停下來",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "substitutes":  [
+                            {
+                                "en":  "cease",
+                                "pos":  "v.",
+                                "zh":  "停止，終止",
+                                "note":  "情感中性，常指一個過程或狀態自然或被動地結束。",
+                                "ex":  {
+                                           "en":  "cease fire",
+                                           "zh":  "停火"
+                                       },
+                                "hl":  false
+                            }
+                        ],
+        "group":  "限制·封閉·託付",
+        "roots":  null,
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "starred":  false,
+        "derivatives":  null,
+        "synonyms":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "bust",
+        "word":  "bust",
+        "phonetic":  {
+                         "us":  "/bʌst/",
+                         "uk":  "/bʌst/"
+                     },
+        "pos":  "n",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "n.",
+                           "zh":  "半身塑像；胸部；胸圍；破產",
+                           "hl":  false
+                       },
+                       {
+                           "pos":  "v.",
+                           "zh":  "打碎；搜捕；降級；終止",
+                           "hl":  true
+                       },
+                       {
+                           "pos":  "adj.",
+                           "zh":  "破產的；打碎的",
+                           "hl":  true
+                       }
+                   ],
+        "examples":  [
+                         {
+                             "en":  "Bellerby came across shoddy commercial versions designed for school classrooms and genuine antiques in auction houses that would have bust his budget.",
+                             "zh":  "",
+                             "src":  "劍橋雅思閱讀21-4",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "The bust of Pythagoras honors the great Greek mathematician.",
+                             "zh":  "這尊畢達哥拉斯半身像是用來紀念這位偉大的古希臘數學家的。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "bust a gut",
+                                               "zh":  "拚命努力；開懷大笑",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "go bust",
+                                               "zh":  "破產",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "bust a move",
+                                               "zh":  "展示舞蹈技巧",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "bust one's hump to finish the work",
+                                               "zh":  "拚命工作以完成任務",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "bust the budget with extravagant purchases",
+                                               "zh":  "因奢侈購物超出預算",
+                                               "hl":  true
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "group":  "破壞·衝突·犯罪",
+        "roots":  null,
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "synonyms":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "arbitrary",
+        "word":  "arbitrary",
+        "phonetic":  {
+                         "us":  "/'ɑːrbɪtreri/",
+                         "uk":  "/'ɑːbɪtrəri/"
+                     },
+        "pos":  "adj",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "adj.",
+                           "zh":  "隨意的，任性的，隨心所欲的；霸道的，專制的，蠻橫的；主觀的，武斷的",
+                           "hl":  true
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "a",
+                          "type":  "前綴",
+                          "zh":  "向，到"
+                      },
+                      {
+                          "part":  "rbitr",
+                          "type":  "詞根",
+                          "zh":  "來，去"
+                      },
+                      {
+                          "part":  "ary",
+                          "type":  "後綴",
+                          "zh":  "形容詞後綴"
+                      }
+                  ],
+        "rootSummary":  "向著個人的意志=任性的",
+        "examples":  [
+                         {
+                             "en":  "Flipping a coin is an arbitrary way to make decisions.",
+                             "zh":  "拋硬幣是一種很隨意的做決定的方式。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "arbitrary decision",
+                                               "zh":  "武斷的決定",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "arbitrary choice",
+                                               "zh":  "任意選擇",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "arbitrary rule",
+                                               "zh":  "隨意規則",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "sb.'s arbitrary application of rules",
+                                               "zh":  "某人對規則的任意套用",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "sb.'s arbitrary decision making",
+                                               "zh":  "某人的任意決策",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "similar":  [
+                        {
+                            "en":  "obituary",
+                            "zh":  "訃告",
+                            "hl":  true
+                        },
+                        {
+                            "en":  "ordinary",
+                            "zh":  "普通的，平常的；平淡的，平庸的",
+                            "hl":  false
+                        },
+                        {
+                            "en":  "arbitrage",
+                            "zh":  "套利交易；套匯",
+                            "hl":  true
+                        }
+                    ],
+        "group":  "嚴格·秩序·監督",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "synonyms":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "irregular",
+        "word":  "irregular",
+        "phonetic":  {
+                         "us":  "/ɪ'regjələr/",
+                         "uk":  "/ɪ'regjələ(r)/"
+                     },
+        "pos":  "adj",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "adj.",
+                           "zh":  "(時間)不規律的；(形狀、圖案等)不規則的；(軍隊、士兵等)非國家正規的；不合法的，不道德的",
+                           "hl":  true
+                       },
+                       {
+                           "pos":  "n.",
+                           "zh":  "不規則物，不合規格的產品",
+                           "hl":  false
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "ir",
+                          "type":  "前綴",
+                          "zh":  "否定"
+                      },
+                      {
+                          "part":  "regul",
+                          "type":  "詞根",
+                          "zh":  "規則"
+                      },
+                      {
+                          "part":  "ar",
+                          "type":  "後綴",
+                          "zh":  "形容詞後綴"
+                      }
+                  ],
+        "rootSummary":  "不是規則的狀態=不規則的",
+        "examples":  [
+                         {
+                             "en":  "She has an irregular timetable.",
+                             "zh":  "她有著不規律的作息。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "irregular shape",
+                                               "zh":  "不規則形狀",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "group":  "方位·形狀·結構",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "synonyms":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "compliment",
+        "word":  "compliment",
+        "phonetic":  {
+                         "us":  "/'kɑːmplɪmənt/",
+                         "uk":  "/'kɒmplɪmənt/"
+                     },
+        "pos":  "n",
+        "posSure":  true,
+        "senses":  [
+                       {
+                           "pos":  "n.",
+                           "zh":  "讚揚；稱讚；表揚",
+                           "hl":  false
+                       },
+                       {
+                           "pos":  "v.",
+                           "zh":  "讚揚，祝賀",
+                           "hl":  false
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "compli",
+                          "type":  "詞根",
+                          "zh":  "恭維"
+                      },
+                      {
+                          "part":  "ment",
+                          "type":  "後綴",
+                          "zh":  "名詞後綴"
+                      }
+                  ],
+        "rootSummary":  "恭維的行為=恭維",
+        "examples":  [
+                         {
+                             "en":  "The couple were satisfied with their dinner and paid the chef a compliment.",
+                             "zh":  "這對夫婦對晚餐很滿意，還稱讚了廚師。",
+                             "hl":  true
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "pay a compliment",
+                                               "zh":  "給予讚美",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "accept a compliment",
+                                               "zh":  "接受讚美",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "group":  "言辭·表達·聲音",
+        "mnemonic":  "",
+        "note":  "",
+        "starred":  false,
+        "derivatives":  null,
+        "synonyms":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "limelight",
+        "word":  "limelight",
+        "pos":  "n",
+        "posSure":  true,
+        "senses":  [
+                       {
+                           "pos":  "n.",
+                           "zh":  "公眾關注的焦點",
+                           "hl":  true
+                       }
+                   ],
+        "examples":  [
+                         {
+                             "en":  "She loves being in the limelight.",
+                             "zh":  "她喜歡成為眾人矚目的焦點。",
+                             "hl":  true
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "in the limelight",
+                                               "zh":  "成為眾人矚目的焦點",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "steal the limelight",
+                                               "zh":  "搶盡風頭",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "out of the limelight",
+                                               "zh":  "淡出公眾視野",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "replaced":  {
+                         "en":  "spotlight",
+                         "zh":  "聚光燈；媒體的關注；公眾的矚目"
+                     },
+        "group":  "光·閃耀·明亮",
+        "phonetic":  {
+                         "us":  "",
+                         "uk":  ""
+                     },
+        "roots":  null,
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "starred":  false,
+        "derivatives":  null,
+        "synonyms":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "part":  2
+    },
+    {
+        "id":  "versatile",
+        "word":  "versatile",
+        "phonetic":  {
+                         "us":  "/'vɜːrsətl/",
+                         "uk":  "/'vɜːsətaɪl/"
+                     },
+        "pos":  "adj",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "adj.",
+                           "zh":  "多用途的，多功能的；多才多藝的；通用的，萬能的",
+                           "hl":  true
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "versa",
+                          "type":  "詞根",
+                          "zh":  "轉變"
+                      },
+                      {
+                          "part":  "tile",
+                          "type":  "後綴",
+                          "zh":  "形容詞後綴"
+                      }
+                  ],
+        "rootSummary":  "能輕易在多種技能中轉變的=多才多藝的",
+        "examples":  [
+                         {
+                             "en":  "Swiss Army knife is a kind of versatile tool.",
+                             "zh":  "瑞士軍刀是一種多功能工具。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "versatile tool",
+                                               "zh":  "多功能工具",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "group":  "數量·評估·範圍",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "synonyms":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "hostile",
+        "word":  "hostile",
+        "phonetic":  {
+                         "us":  "/'hɑːstl/",
+                         "uk":  "/'hɒstaɪl/"
+                     },
+        "pos":  "adj",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "adj.",
+                           "zh":  "(生長環境)惡劣的；敵對的，敵方的；懷有敵意的；不受歡迎的；冒犯的，無禮的",
+                           "hl":  true
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "host",
+                          "type":  "詞根",
+                          "zh":  "客人"
+                      },
+                      {
+                          "part":  "ile",
+                          "type":  "後綴",
+                          "zh":  "形容詞後綴"
+                      }
+                  ],
+        "rootSummary":  "對外來客人態度不友好的=懷有敵意的",
+        "examples":  [
+                         {
+                             "en":  "There are almost no plants here because of the hostile environment.",
+                             "zh":  "因為環境惡劣，這裡幾乎寸草不生。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "hostile forces",
+                                               "zh":  "敵對勢力",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "group":  "破壞·衝突·犯罪",
+        "mnemonic":  "",
+        "note":  "",
+        "synonyms":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2,
+        "derivatives":  [
+                            {
+                                "en":  "hostility",
+                                "pos":  "n.",
+                                "zh":  "敵對，敵意"
+                            }
+                        ]
+    },
+    {
+        "id":  "assertion",
+        "word":  "assertion",
+        "phonetic":  {
+                         "us":  "/ə'sɜːrʃn/",
+                         "uk":  "/ə'sɜːʃn/"
+                     },
+        "pos":  "n",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "n.",
+                           "zh":  "主張，堅持；斷言；要求",
+                           "hl":  false
+                       }
+                   ],
+        "examples":  [
+                         {
+                             "en":  "He made an assertion that aliens exist.",
+                             "zh":  "他斷言外星人存在。",
+                             "hl":  false
+                         }
+                     ],
+        "substitutes":  [
+                            {
+                                "en":  "contention",
+                                "pos":  "n.",
+                                "zh":  "(辯論或論證中的)觀點，主張",
+                                "note":  "情感中性，常用於學術或辯論語境中，指為證明而提出的論點。",
+                                "ex":  {
+                                           "en":  "the author's main contention",
+                                           "zh":  "作者的主要論點"
+                                       },
+                                "hl":  false
+                            }
+                        ],
+        "group":  "言辭·表達·聲音",
+        "roots":  null,
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "collocations":  {
+                             "basic":  [
+
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "synonyms":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "scrupulous",
+        "word":  "scrupulous",
+        "phonetic":  {
+                         "us":  "/'skruːpjələs/",
+                         "uk":  "/'skruːpjələs/"
+                     },
+        "pos":  "adj",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "adj.",
+                           "zh":  "小心謹慎的；細心的，一絲不苟的；嚴謹的",
+                           "hl":  false
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "scrup",
+                          "type":  "詞根",
+                          "zh":  "顧慮"
+                      },
+                      {
+                          "part":  "ulous",
+                          "type":  "後綴",
+                          "zh":  "形容詞後綴"
+                      }
+                  ],
+        "rootSummary":  "顧慮周全的=小心謹慎的",
+        "examples":  [
+                         {
+                             "en":  "The player looks scrupulous when he adjusts his position to hit the ball.",
+                             "zh":  "這個參賽選手調整擊球位置時看起來很謹慎。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "scrupulous care",
+                                               "zh":  "極其小心",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "scrupulous in detail",
+                                               "zh":  "對細節一絲不苟",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "scrupulous adherence to rules",
+                                               "zh":  "嚴格遵守規則",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "group":  "嚴格·秩序·監督",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "synonyms":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "unanimous",
+        "word":  "unanimous",
+        "phonetic":  {
+                         "us":  "/ju'nænɪməs/",
+                         "uk":  "/ju'nænɪməs/"
+                     },
+        "pos":  "adj",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "adj.",
+                           "zh":  "一致同意的；全體一致的",
+                           "hl":  false
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "un",
+                          "type":  "前綴",
+                          "zh":  "單一，一"
+                      },
+                      {
+                          "part":  "anim",
+                          "type":  "詞根",
+                          "zh":  "思想，精神"
+                      },
+                      {
+                          "part":  "ous",
+                          "type":  "後綴",
+                          "zh":  "形容詞後綴"
+                      }
+                  ],
+        "rootSummary":  "思想達到統一的=一致同意的",
+        "examples":  [
+                         {
+                             "en":  "There was unanimous agreement that we should do the business deal.",
+                             "zh":  "全體一致同意我們應該做這筆生意。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "unanimous approval",
+                                               "zh":  "一致同意",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "unanimous vote",
+                                               "zh":  "全票通過或擁護",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "unanimous decision",
+                                               "zh":  "一致決定",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "group":  "嚴格·秩序·監督",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "synonyms":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "considerable",
+        "word":  "considerable",
+        "phonetic":  {
+                         "us":  "/kən'sɪdərəbl/",
+                         "uk":  "/kən'sɪdərəbl/"
+                     },
+        "pos":  "adj",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "adj.",
+                           "zh":  "相當多的；相當大的，相當重要的；可觀的",
+                           "hl":  true
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "con",
+                          "type":  "前綴",
+                          "zh":  "共同，一起"
+                      },
+                      {
+                          "part":  "sider",
+                          "type":  "詞根",
+                          "zh":  "星星"
+                      },
+                      {
+                          "part":  "able",
+                          "type":  "後綴",
+                          "zh":  "能夠…的"
+                      }
+                  ],
+        "rootSummary":  "能夠像天體一樣大的=相當大的",
+        "examples":  [
+                         {
+                             "en":  "It is a considerable sum of money.",
+                             "zh":  "那是一筆數量可觀的錢。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "considerable time",
+                                               "zh":  "大量時間",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "considerable amount",
+                                               "zh":  "大量",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "considerable effort",
+                                               "zh":  "大量努力",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "exert considerable influence on sb.",
+                                               "zh":  "對某人產生重大影響",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "possess considerable business acumen",
+                                               "zh":  "擁有顯著的商業敏銳度",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "synonyms":  [
+                         {
+                             "en":  "large",
+                             "zh":  "大的，大量的",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "substantial",
+                             "zh":  "大量的；實質的",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "ample",
+                             "zh":  "充足的，富裕的",
+                             "hl":  true
+                         }
+                     ],
+        "group":  "數量·評估·範圍",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "excavate",
+        "word":  "excavate",
+        "phonetic":  {
+                         "us":  "/'ekskəveɪt/",
+                         "uk":  "/'ekskəveɪt/"
+                     },
+        "pos":  "v",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "v.",
+                           "zh":  "挖掘，挖出；挖(空)，挖(洞)",
+                           "hl":  true
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "ex",
+                          "type":  "前綴",
+                          "zh":  "出，離開"
+                      },
+                      {
+                          "part":  "cavate",
+                          "type":  "詞根",
+                          "zh":  "挖空"
+                      }
+                  ],
+        "rootSummary":  "土被挖出去挖空=挖掘",
+        "examples":  [
+                         {
+                             "en":  "The boy is excavating the land to plant the tree.",
+                             "zh":  "這個男孩正在挖土種樹。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "excavate a site",
+                                               "zh":  "挖掘一個地點",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "excavate a tunnel",
+                                               "zh":  "挖掘一條隧道",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "excavate a hole",
+                                               "zh":  "挖一個洞",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "excavate the construction site",
+                                               "zh":  "挖掘建築工地",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "excavate a large underground chamber",
+                                               "zh":  "挖掘大型地下室",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "similar":  [
+                        {
+                            "en":  "enervate",
+                            "zh":  "使虛弱；使無力",
+                            "hl":  true
+                        },
+                        {
+                            "en":  "execrate",
+                            "zh":  "譴責，痛恨",
+                            "hl":  true
+                        },
+                        {
+                            "en":  "elevate",
+                            "zh":  "上升；提高；舉起；提拔",
+                            "hl":  true
+                        }
+                    ],
+        "group":  "地形·自然·地質",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "synonyms":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "appealing",
+        "word":  "appealing",
+        "phonetic":  {
+                         "us":  "/ə'piːlɪŋ/",
+                         "uk":  "/ə'piːlɪŋ/"
+                     },
+        "pos":  "adj",
+        "posSure":  true,
+        "senses":  [
+                       {
+                           "pos":  "adj.",
+                           "zh":  "吸引人的；打動人心的；懇求的",
+                           "hl":  true
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "appeal",
+                          "type":  "詞根",
+                          "zh":  "吸引"
+                      },
+                      {
+                          "part":  "ing",
+                          "type":  "後綴",
+                          "zh":  "形容詞後綴"
+                      }
+                  ],
+        "rootSummary":  "具有吸引他人特性的狀態=有吸引力的",
+        "examples":  [
+                         {
+                             "en":  "The kid found the smells from his mother's dinner quite appealing.",
+                             "zh":  "孩子覺得母親做的晚餐香味誘人。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "appealing to sb.",
+                                               "zh":  "對某人有吸引力",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "develop an appealing marketing strategy",
+                                               "zh":  "制定吸引人的營銷策略",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "create an appealing atmosphere",
+                                               "zh":  "營造迷人氛圍",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "establish an appealing brand image",
+                                               "zh":  "建立吸引人的品牌形象",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "synonyms":  [
+                         {
+                             "en":  "engaging",
+                             "zh":  "迷人的，有吸引力的",
+                             "hl":  true
+                         },
+                         {
+                             "en":  "charming",
+                             "zh":  "迷人的，令人愉快的",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "fetching",
+                             "zh":  "迷人的，動人的",
+                             "hl":  true
+                         },
+                         {
+                             "en":  "glamorous",
+                             "zh":  "富有魅力的，迷人的",
+                             "hl":  false
+                         }
+                     ],
+        "group":  "愉悅·滿足·寵愛",
+        "mnemonic":  "",
+        "note":  "",
+        "starred":  false,
+        "derivatives":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "dainty",
+        "word":  "dainty",
+        "phonetic":  {
+                         "us":  "/'deɪnti/",
+                         "uk":  "/'deɪnti/"
+                     },
+        "pos":  "adj",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "adj.",
+                           "zh":  "優雅，考究；小巧精緻的；優美的；講究的；可口的",
+                           "hl":  true
+                       },
+                       {
+                           "pos":  "n.",
+                           "zh":  "適口的食物",
+                           "hl":  false
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "dain",
+                          "type":  "詞根",
+                          "zh":  "值得"
+                      },
+                      {
+                          "part":  "ty",
+                          "type":  "後綴",
+                          "zh":  "形容詞後綴"
+                      }
+                  ],
+        "rootSummary":  "高貴值得的品質=優雅",
+        "examples":  [
+                         {
+                             "en":  "This set of Chinese porcelain is very dainty.",
+                             "zh":  "這套中國瓷器非常考究。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "dainty dish",
+                                               "zh":  "精緻的菜餚",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "dainty feet",
+                                               "zh":  "纖細的腳",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "a dainty piece of lace",
+                                               "zh":  "一片精美的蕾絲",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "prepare a dainty meal for sb.",
+                                               "zh":  "為某人烹製精緻餐點",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "wear dainty pearl earrings",
+                                               "zh":  "戴上優雅的珍珠耳環",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "antonyms":  [
+                         {
+                             "en":  "tasteless",
+                             "zh":  "無味的；沒品味的",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "vulgar",
+                             "zh":  "粗俗的；下流的；平民的；通俗的",
+                             "hl":  true
+                         }
+                     ],
+        "group":  "衣著·外觀·風格",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "synonyms":  null,
+        "similar":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "physique",
+        "word":  "physique",
+        "phonetic":  {
+                         "us":  "/fɪ'ziːk/",
+                         "uk":  "/fɪ'ziːk/"
+                     },
+        "pos":  "n",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "n.",
+                           "zh":  "體格，體魄",
+                           "hl":  false
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "physi",
+                          "type":  "詞根",
+                          "zh":  "自然，生長"
+                      },
+                      {
+                          "part":  "que",
+                          "type":  "後綴",
+                          "zh":  "名詞後綴"
+                      }
+                  ],
+        "rootSummary":  "人能生長的狀態=體格",
+        "examples":  [
+                         {
+                             "en":  "The man in the gym has a very muscular physique.",
+                             "zh":  "健身房裡的這個男人有著強壯的體格。",
+                             "hl":  true
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "good physique",
+                                               "zh":  "好的體格",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "improve one's physique",
+                                               "zh":  "改善某人的體格",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "admire sb.'s well-built physique",
+                                               "zh":  "欣賞某人健壯的體格",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "maintain a healthy physique",
+                                               "zh":  "保持健康的體格",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "improve sb.'s physique through exercise",
+                                               "zh":  "透過鍛鍊改善某人的體格",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "similar":  [
+                        {
+                            "en":  "physical",
+                            "zh":  "身體的，肉體的；物質的；物理的",
+                            "hl":  false
+                        },
+                        {
+                            "en":  "psyche",
+                            "zh":  "靈魂；心智",
+                            "hl":  true
+                        },
+                        {
+                            "en":  "pique",
+                            "zh":  "引起(興趣等)；不悅，憤怒",
+                            "hl":  false
+                        }
+                    ],
+        "group":  "醫療·健康·防護",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "synonyms":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "agitation",
+        "word":  "agitation",
+        "phonetic":  {
+                         "us":  "/ˌædʒɪ'teɪʃn/",
+                         "uk":  "/ˌædʒɪ'teɪʃn/"
+                     },
+        "pos":  "n",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "n.",
+                           "zh":  "焦慮，憂慮；搖動；煽動",
+                           "hl":  true
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "agit",
+                          "type":  "詞根",
+                          "zh":  "來回移動"
+                      },
+                      {
+                          "part":  "at",
+                          "type":  "後綴",
+                          "zh":  "動詞後綴"
+                      },
+                      {
+                          "part":  "ion",
+                          "type":  "後綴",
+                          "zh":  "名詞後綴"
+                      }
+                  ],
+        "rootSummary":  "使人在房裡來回踱步的情緒=焦慮",
+        "examples":  [
+                         {
+                             "en":  "Apparently she is in a state of agitation.",
+                             "zh":  "顯然她此刻身處焦慮之中。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "public agitation",
+                                               "zh":  "公眾抗議",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "mental agitation",
+                                               "zh":  "心神不寧",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "emotional agitation",
+                                               "zh":  "情緒激動",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "fall into a state of agitation",
+                                               "zh":  "陷入焦慮不安的狀態",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "synonyms":  [
+                         {
+                             "en":  "disturbance",
+                             "zh":  "騷亂，擾亂",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "unrest",
+                             "zh":  "動盪，不安",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "disorder",
+                             "zh":  "混亂；失調",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "turmoil",
+                             "zh":  "動盪，混亂",
+                             "hl":  true
+                         }
+                     ],
+        "group":  "煩惱·不適·絕望",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "strap",
+        "word":  "strap",
+        "phonetic":  {
+                         "us":  "/stræp/",
+                         "uk":  "/stræp/"
+                     },
+        "pos":  "v",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "v.",
+                           "zh":  "捆紮；給……打繃帶",
+                           "hl":  true
+                       },
+                       {
+                           "pos":  "n.",
+                           "zh":  "帶子",
+                           "hl":  true
+                       }
+                   ],
+        "examples":  [
+                         {
+                             "en":  "He strapped the luggage tightly to the roof rack of the car.",
+                             "zh":  "他把行李牢牢地綁在車的行李架上。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "leather strap",
+                                               "zh":  "皮帶，皮錶帶",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "shoulder strap",
+                                               "zh":  "肩帶",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "watch strap",
+                                               "zh":  "錶帶",
+                                               "hl":  true
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "substitutes":  [
+                            {
+                                "en":  "fasten",
+                                "pos":  "v.",
+                                "zh":  "繫牢，扎牢",
+                                "note":  "情感中性，強調使物體固定或連接的通用動作。",
+                                "ex":  {
+                                           "en":  "fasten your seatbelt",
+                                           "zh":  "繫好你的安全帶"
+                                       },
+                                "hl":  false
+                            }
+                        ],
+        "group":  "飲食·物品·展示",
+        "roots":  null,
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "synonyms":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "strand",
+        "word":  "strand",
+        "phonetic":  {
+                         "us":  "/strænd/",
+                         "uk":  "/strænd/"
+                     },
+        "pos":  "v",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "v.",
+                           "zh":  "使滯留，使擱淺；使陷入困境",
+                           "hl":  true
+                       },
+                       {
+                           "pos":  "n.",
+                           "zh":  "(繩子、線等的)股，縷；一個組成部分；海濱，河岸，海灘，湖濱",
+                           "hl":  true
+                       }
+                   ],
+        "examples":  [
+                         {
+                             "en":  "A fish was stranded on the beach.",
+                             "zh":  "一條魚擱淺於沙灘之上。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "strand of hair",
+                                               "zh":  "一縷頭髮",
+                                               "hl":  true
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "substitutes":  [
+                            {
+                                "en":  "fiber",
+                                "pos":  "n.",
+                                "zh":  "纖維；纖絲",
+                                "note":  "情感中性，常用於描述動植物、織物或材料的構成成分。",
+                                "ex":  {
+                                           "en":  "optical fiber",
+                                           "zh":  "光纖"
+                                       },
+                                "hl":  false
+                            }
+                        ],
+        "group":  "地形·自然·地質",
+        "roots":  null,
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "synonyms":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "invaluable",
+        "word":  "invaluable",
+        "phonetic":  {
+                         "us":  "/ɪn'væljuəbl/",
+                         "uk":  "/ɪn'væljuəbl/"
+                     },
+        "pos":  "adj",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "adj.",
+                           "zh":  "非常寶貴的，極為有用的",
+                           "hl":  true
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "in",
+                          "type":  "前綴",
+                          "zh":  "否定"
+                      },
+                      {
+                          "part":  "valu",
+                          "type":  "詞根",
+                          "zh":  "價值"
+                      },
+                      {
+                          "part":  "able",
+                          "type":  "後綴",
+                          "zh":  "能夠…的"
+                      }
+                  ],
+        "rootSummary":  "不能用價值衡量的=非常寶貴的",
+        "examples":  [
+                         {
+                             "en":  "These invaluable diamonds are shining brightly.",
+                             "zh":  "這些珍貴的鑽石在閃閃發亮。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "invaluable experience",
+                                               "zh":  "寶貴的經驗",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "invaluable advice",
+                                               "zh":  "寶貴的建議",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "group":  "數量·評估·範圍",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "synonyms":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "warrant",
+        "word":  "warrant",
+        "phonetic":  {
+                         "us":  "/'wɔːrənt/",
+                         "uk":  "/'wɒrənt/"
+                     },
+        "pos":  "v",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "v.",
+                           "zh":  "保證；使正當；使……有必要",
+                           "hl":  true
+                       },
+                       {
+                           "pos":  "n.",
+                           "zh":  "授權令(包括逮捕令、搜查令等)；正當理由；憑證；(法院)令狀",
+                           "hl":  false
+                       }
+                   ],
+        "examples":  [
+                         {
+                             "en":  "I'm the one who confronts the challenge. I'll warrant you.",
+                             "zh":  "我會是那個直面挑戰的人，我向你保證。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "arrest warrant",
+                                               "zh":  "逮捕證",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "similar":  [
+                        {
+                            "en":  "warring",
+                            "zh":  "交戰的",
+                            "hl":  false
+                        },
+                        {
+                            "en":  "errant",
+                            "zh":  "錯誤的，脫離正途的，迷路的；無定的",
+                            "hl":  false
+                        },
+                        {
+                            "en":  "vagrant",
+                            "zh":  "遊民，流浪者",
+                            "hl":  false
+                        }
+                    ],
+        "substitutes":  [
+                            {
+                                "en":  "justify",
+                                "pos":  "v.",
+                                "zh":  "證明…是正當的；為…辯護",
+                                "note":  "情感中性，指為某個行為或決定提供正當理由。",
+                                "ex":  {
+                                           "en":  "justify the expense",
+                                           "zh":  "證明開支是合理的"
+                                       },
+                                "hl":  false
+                            }
+                        ],
+        "group":  "法律·訴訟·裁決",
+        "roots":  null,
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "synonyms":  null,
+        "antonyms":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "displacement",
+        "word":  "displacement",
+        "pos":  "n",
+        "posSure":  true,
+        "senses":  [
+                       {
+                           "pos":  "n.",
+                           "zh":  "位移；替換，取代；流離失所；(引擎)排量",
+                           "hl":  false
+                       }
+                   ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "displacement activity",
+                                               "zh":  "替換活動",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "population displacement",
+                                               "zh":  "人口流動",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "displacement of native species",
+                                               "zh":  "取代本地物種",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "displacement caused by war",
+                                               "zh":  "戰爭造成的流離失所",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "displacement in a piston engine",
+                                               "zh":  "活塞引擎的排量",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "synonyms":  [
+                         {
+                             "en":  "dislodgment",
+                             "zh":  "逐出，移開",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "dispossession",
+                             "zh":  "強佔不動產；驅逐；奪取",
+                             "hl":  true
+                         },
+                         {
+                             "en":  "displacement reaction",
+                             "zh":  "置換反應",
+                             "hl":  false
+                         }
+                     ],
+        "group":  "移動·轉向·時間",
+        "phonetic":  {
+                         "us":  "",
+                         "uk":  ""
+                     },
+        "roots":  null,
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "starred":  false,
+        "derivatives":  null,
+        "examples":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "refinement",
+        "word":  "refinement",
+        "phonetic":  {
+                         "us":  "/rɪ'faɪnmənt/",
+                         "uk":  "/rɪ'faɪnmənt/"
+                     },
+        "pos":  "n",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "n.",
+                           "zh":  "改進，改良；精製；文雅",
+                           "hl":  true
+                       }
+                   ],
+        "examples":  [
+                         {
+                             "en":  "With a bit of refinement, the dress looks better.",
+                             "zh":  "經過一點點改良後，這條裙子看起來好看多了。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "refinement process",
+                                               "zh":  "精煉過程",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "cultural refinement",
+                                               "zh":  "文化修煉",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "refinement of skills",
+                                               "zh":  "技能的提煉",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "refinement of one's manners",
+                                               "zh":  "禮儀修養提升",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "substitutes":  [
+                            {
+                                "en":  "improvement",
+                                "pos":  "n.",
+                                "zh":  "改進；改善",
+                                "note":  "情感中立，泛指使事物變得更好的過程或結果。",
+                                "ex":  {
+                                           "en":  "make improvements to sth.",
+                                           "zh":  "對某事進行改進"
+                                       },
+                                "hl":  false
+                            }
+                        ],
+        "group":  "繁榮·復甦·成長",
+        "roots":  null,
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "synonyms":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "fodder",
+        "word":  "fodder",
+        "phonetic":  {
+                         "us":  "/'fɑːdər/",
+                         "uk":  "/'fɒdə(r)/"
+                     },
+        "pos":  "n",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "n.",
+                           "zh":  "飼料，草料；(創作的)素材；彈藥",
+                           "hl":  true
+                       },
+                       {
+                           "pos":  "v.",
+                           "zh":  "餵",
+                           "hl":  true
+                       }
+                   ],
+        "examples":  [
+                         {
+                             "en":  "The crushed forage is widely used as animal fodder.",
+                             "zh":  "粉碎後的牧草被廣泛用作動物飼料。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "fodder crop",
+                                               "zh":  "飼料作物",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "animal fodder",
+                                               "zh":  "動物飼料",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "provide fodder for sb.'s animals",
+                                               "zh":  "為某人的動物提供飼料",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "substitutes":  [
+                            {
+                                "en":  "feed",
+                                "pos":  "v.",
+                                "zh":  "餵養；供給食物",
+                                "note":  "情感中立，是「餵養」最通用、最直接的表達。",
+                                "ex":  {
+                                           "en":  "feed the cattle",
+                                           "zh":  "餵牛"
+                                       },
+                                "hl":  false
+                            }
+                        ],
+        "group":  "動物·生態·生物",
+        "roots":  null,
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "synonyms":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "reminiscent",
+        "word":  "reminiscent",
+        "phonetic":  {
+                         "us":  "/ˌremɪ'nɪsnt/",
+                         "uk":  "/ˌremɪ'nɪsnt/"
+                     },
+        "pos":  "adj",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "adj.",
+                           "zh":  "暗示……的，使人聯想……的；懷舊的，回憶的",
+                           "hl":  true
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "re",
+                          "type":  "前綴",
+                          "zh":  "再、重複"
+                      },
+                      {
+                          "part":  "minisc",
+                          "type":  "詞根",
+                          "zh":  "記住"
+                      },
+                      {
+                          "part":  "ent",
+                          "type":  "後綴",
+                          "zh":  "形容詞後綴"
+                      }
+                  ],
+        "rootSummary":  "讓人再次記住其他相關事務的=使人聯想……的",
+        "examples":  [
+                         {
+                             "en":  "This is oddly reminiscent of a dinner with my family.",
+                             "zh":  "這裡莫名讓我聯想起我家共進晚餐的畫面。",
+                             "src":  "小謝爾頓 S02E07",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "reminiscent of",
+                                               "zh":  "讓人想起，聯想到",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "reminiscent of sb.'s childhood",
+                                               "zh":  "令人想起某人的童年",
+                                               "hl":  true
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "group":  "認知·知識·學習",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  null,
+        "synonyms":  null,
+        "similar":  null,
+        "antonyms":  null,
+        "substitutes":  null,
+        "replaced":  null,
+        "part":  2
     }
 ];
