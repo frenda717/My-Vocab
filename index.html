@@ -363,6 +363,28 @@ const state = Object.assign({
 const save = () => localStorage.setItem(LS, JSON.stringify(state));
 
 const POS_LABEL = {n:'名詞 n.', v:'動詞 v.', adj:'形容詞 adj.', adv:'副詞 adv.', other:'其他'};
+
+/* 資料補齊：任何欄位缺漏或為 null 都補成安全的預設值，
+   免得一筆資料有問題就讓整個頁面停止運作（分頁、Part 選單全失效）。 */
+(function normalize(){
+  const arrayFields = ['senses','roots','derivatives','examples','synonyms','similar','antonyms','substitutes'];
+  WORDS.forEach(w => {
+    arrayFields.forEach(f => { if (!Array.isArray(w[f])) w[f] = []; });
+    if (!w.collocations || typeof w.collocations !== 'object') w.collocations = {};
+    if (!Array.isArray(w.collocations.basic))   w.collocations.basic = [];
+    if (!Array.isArray(w.collocations.context)) w.collocations.context = [];
+    if (!w.phonetic || typeof w.phonetic !== 'object') w.phonetic = { us:'', uk:'' };
+    if (w.phonetic.us == null) w.phonetic.us = '';
+    if (w.phonetic.uk == null) w.phonetic.uk = '';
+    if (typeof w.group !== 'string') w.group = '未分類';
+    if (w.note == null) w.note = '';
+    if (w.mnemonic == null) w.mnemonic = '';
+    if (w.rootSummary == null) w.rootSummary = '';
+    if (!POS_LABEL[w.pos]) w.pos = 'other';
+    w.part = Number(w.part) || 1;
+  });
+})();
+
 const byId = id => WORDS.find(w => w.id === id);
 const esc = s => String(s == null ? '' : s)
   .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
