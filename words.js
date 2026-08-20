@@ -24428,16 +24428,28 @@ const WORDS =[
                          "us":  "",
                          "uk":  ""
                      },
-        "roots":  [],
+        "roots":  [
+
+                  ],
         "rootSummary":  "",
         "mnemonic":  "",
         "note":  "",
         "starred":  false,
-        "derivatives":  [],
-        "synonyms":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "synonyms":  [
+
+                     ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
         "part":  2
     },
     {
@@ -24525,13 +24537,23 @@ const WORDS =[
                          }
                      ],
         "group":  "策略·計謀·手段",
-        "roots":  [],
+        "roots":  [
+
+                  ],
         "rootSummary":  "",
         "note":  "",
-        "derivatives":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
         "replaced":  null,
         "part":  2
     },
@@ -24624,10 +24646,18 @@ const WORDS =[
         "group":  "嚴格·秩序·監督",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
         "replaced":  null,
         "part":  2
     },
@@ -24725,10 +24755,18 @@ const WORDS =[
         "mnemonic":  "",
         "note":  "",
         "starred":  false,
-        "derivatives":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
         "replaced":  null,
         "part":  2
     },
@@ -24789,11 +24827,21 @@ const WORDS =[
         "group":  "數量·評估·範圍",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "synonyms":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "synonyms":  [
+
+                     ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
         "replaced":  null,
         "part":  2
     },
@@ -24871,15 +24919,25 @@ const WORDS =[
                             }
                         ],
         "group":  "愉悅·滿足·寵愛",
-        "roots":  [],
+        "roots":  [
+
+                  ],
         "rootSummary":  "",
         "mnemonic":  "",
         "note":  "",
         "starred":  false,
-        "derivatives":  [],
-        "synonyms":  [],
-        "similar":  [],
-        "antonyms":  [],
+        "derivatives":  [
+
+                        ],
+        "synonyms":  [
+
+                     ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
         "replaced":  null,
         "part":  2
     },
@@ -24958,10 +25016,18 @@ const WORDS =[
         "group":  "方位·形狀·結構",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "synonyms":  [],
-        "similar":  [],
-        "antonyms":  [],
+        "derivatives":  [
+
+                        ],
+        "synonyms":  [
+
+                     ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
         "replaced":  null,
         "part":  2
     },
@@ -25049,15 +25115,25 @@ const WORDS =[
                         }
                     ],
         "group":  "邊緣·細節·觸感",
-        "roots":  [],
+        "roots":  [
+
+                  ],
         "rootSummary":  "",
         "mnemonic":  "",
         "note":  "",
         "starred":  false,
-        "derivatives":  [],
-        "synonyms":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "synonyms":  [
+
+                     ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
         "replaced":  null,
         "part":  2
     },
@@ -25160,10 +25236,18 @@ const WORDS =[
         "group":  "繁榮·復甦·成長",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
         "replaced":  null,
         "part":  2
     },
@@ -25266,10 +25350,18 @@ const WORDS =[
         "group":  "數量·評估·範圍",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
         "replaced":  null,
         "part":  2
     },
@@ -25360,9 +25452,15 @@ const WORDS =[
         "group":  "數量·評估·範圍",
         "mnemonic":  "",
         "note":  "",
-        "synonyms":  [],
-        "similar":  [],
-        "antonyms":  [],
+        "synonyms":  [
+
+                     ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
         "replaced":  null,
         "part":  2
     },
@@ -25401,13 +25499,23 @@ const WORDS =[
                          }
                      ],
         "group":  "限制·封閉·託付",
-        "roots":  [],
+        "roots":  [
+
+                  ],
         "rootSummary":  "",
         "note":  "",
-        "derivatives":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
         "replaced":  null,
         "part":  2,
         "phonetic":  {
@@ -25536,10 +25644,18 @@ const WORDS =[
         "group":  "法律·訴訟·裁決",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "synonyms":  [],
-        "similar":  [],
-        "antonyms":  [],
+        "derivatives":  [
+
+                        ],
+        "synonyms":  [
+
+                     ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
         "replaced":  null,
         "part":  2
     },
@@ -25593,16 +25709,28 @@ const WORDS =[
                          "us":  "",
                          "uk":  ""
                      },
-        "roots":  [],
+        "roots":  [
+
+                  ],
         "rootSummary":  "",
         "mnemonic":  "",
         "note":  "",
         "starred":  false,
-        "derivatives":  [],
-        "examples":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "examples":  [
+
+                     ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
         "part":  2
     },
     {
@@ -25667,15 +25795,25 @@ const WORDS =[
                          "us":  "",
                          "uk":  ""
                      },
-        "roots":  [],
+        "roots":  [
+
+                  ],
         "rootSummary":  "",
         "mnemonic":  "",
         "note":  "",
         "starred":  false,
-        "derivatives":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
         "part":  2
     },
     {
@@ -25699,6 +25837,28 @@ const WORDS =[
                            "hl":  true
                        }
                    ],
+        "group":  "煩惱·不適·絕望",
+        "roots":  [
+
+                  ],
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "starred":  false,
+        "derivatives":  [
+
+                        ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
+        "replaced":  null,
+        "part":  2,
         "examples":  [
                          {
                              "en":  "Machines who are better than us at sticking to the moral high ground may be expected to discourage some of the lapses we presently take for granted.",
@@ -25710,29 +25870,68 @@ const WORDS =[
                              "en":  "I had a lapse in judgment and put too much soap in the laundry.",
                              "zh":  "我做了個失誤的判斷，洗衣服的時候放了太多肥皂。",
                              "hl":  false
+                         },
+                         {
+                             "en":  "I'm just giving you a time lapse of what it's going to look like in a year.",
+                             "zh":  "我只是想給你看時間流逝一年後的樣子。",
+                             "src":  "狗狗博客 S03E01",
+                             "hl":  false
                          }
                      ],
-        "group":  "煩惱·不適·絕望",
-        "roots":  [],
-        "rootSummary":  "",
-        "mnemonic":  "",
-        "note":  "",
-        "starred":  false,
-        "derivatives":  [],
         "collocations":  {
                              "basic":  [
-
+                                           {
+                                               "en":  "memory lapse",
+                                               "zh":  "記憶失誤",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "lapse of time",
+                                               "zh":  "時間流逝",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "lapse of concentration",
+                                               "zh":  "注意力渙散",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "lapse into a coma",
+                                               "zh":  "昏迷過去",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "let sb.'s attention lapse",
+                                               "zh":  "某人的注意力不集中",
+                                               "hl":  false
+                                           }
                                        ],
                              "context":  [
 
                                          ]
                          },
-        "synonyms":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
-        "replaced":  null,
-        "part":  2
+        "synonyms":  [
+                         {
+                             "en":  "decline",
+                             "zh":  "下降，衰退",
+                             "hl":  true
+                         },
+                         {
+                             "en":  "fall",
+                             "zh":  "下降，跌落",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "blunder",
+                             "zh":  "大錯，失誤",
+                             "hl":  true
+                         },
+                         {
+                             "en":  "tail off",
+                             "zh":  "逐漸減少",
+                             "hl":  false
+                         }
+                     ]
     },
     {
         "id":  "grit",
@@ -25814,14 +26013,24 @@ const WORDS =[
                          }
                      ],
         "group":  "意志·毅力·決心",
-        "roots":  [],
+        "roots":  [
+
+                  ],
         "rootSummary":  "",
         "note":  "",
         "starred":  false,
-        "derivatives":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
         "replaced":  null,
         "part":  2
     },
@@ -25909,10 +26118,18 @@ const WORDS =[
         "group":  "破壞·衝突·犯罪",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
         "replaced":  null,
         "part":  2
     },
@@ -25951,13 +26168,6 @@ const WORDS =[
                       }
                   ],
         "rootSummary":  "共同在道路上運送的工具=運輸工具",
-        "examples":  [
-                         {
-                             "en":  "There are many different means of conveyance — cars, trucks, planes, and so on.",
-                             "zh":  "運輸工具有很多種——汽車、卡車、飛機等等。",
-                             "hl":  false
-                         }
-                     ],
         "collocations":  {
                              "basic":  [
                                            {
@@ -26010,12 +26220,33 @@ const WORDS =[
         "group":  "交通·運輸·船隻",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
         "replaced":  null,
-        "part":  2
+        "part":  2,
+        "examples":  [
+                         {
+                             "en":  "There are many different means of conveyance — cars, trucks, planes, and so on.",
+                             "zh":  "運輸工具有很多種——汽車、卡車、飛機等等。",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "In simple terms, a conveyance is giving to another a right to use something you possess exclusively.",
+                             "zh":  "簡單地說，轉讓就是將自己獨有的使用權給予他人。",
+                             "src":  "Forbes 2019/11/01",
+                             "hl":  false
+                         }
+                     ]
     },
     {
         "id":  "precarious",
@@ -26048,28 +26279,19 @@ const WORDS =[
                             }
                         ],
         "group":  "煩惱·不適·絕望",
-        "roots":  [],
-        "rootSummary":  "",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "examples":  [],
-        "synonyms":  [],
-        "antonyms":  [],
+        "derivatives":  [
+
+                        ],
+        "synonyms":  [
+
+                     ],
+        "antonyms":  [
+
+                     ],
         "replaced":  null,
         "part":  2,
-        "collocations":  {
-                             "basic":  [
-                                           {
-                                               "en":  "sb.'s precarious health condition",
-                                               "zh":  "某人的健康狀況不穩定",
-                                               "hl":  false
-                                           }
-                                       ],
-                             "context":  [
-
-                                         ]
-                         },
         "similar":  [
                         {
                             "en":  "precocious",
@@ -26086,7 +26308,54 @@ const WORDS =[
                             "zh":  "發同感的；代替別人做的；代理的，代替的",
                             "hl":  true
                         }
-                    ]
+                    ],
+        "roots":  [
+                      {
+                          "part":  "prec",
+                          "type":  "詞根",
+                          "zh":  "請求"
+                      },
+                      {
+                          "part":  "ari",
+                          "type":  "後綴",
+                          "zh":  "形容詞後綴"
+                      },
+                      {
+                          "part":  "ous",
+                          "type":  "後綴",
+                          "zh":  "形容詞後綴"
+                      }
+                  ],
+        "rootSummary":  "處於不穩定請求的狀態=不穩定的",
+        "examples":  [
+                         {
+                             "en":  "The car is in a precarious situation. It could fall off the cliff anytime.",
+                             "zh":  "這輛車處在一種危險狀態下，它隨時可能掉下懸崖。",
+                             "hl":  true
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "precarious situation",
+                                               "zh":  "危險的局勢",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "precarious balance",
+                                               "zh":  "不穩定的平衡",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "sb.'s precarious health condition",
+                                               "zh":  "某人的健康狀況不穩定",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         }
     },
     {
         "id":  "droop",
@@ -26153,14 +26422,24 @@ const WORDS =[
                             }
                         ],
         "group":  "煩惱·不適·絕望",
-        "roots":  [],
+        "roots":  [
+
+                  ],
         "rootSummary":  "",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "synonyms":  [],
-        "similar":  [],
-        "antonyms":  [],
+        "derivatives":  [
+
+                        ],
+        "synonyms":  [
+
+                     ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
         "replaced":  null,
         "part":  2
     },
@@ -26209,10 +26488,18 @@ const WORDS =[
         "group":  "認知·知識·學習",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
         "replaced":  null,
         "part":  2,
         "collocations":  {
@@ -26340,14 +26627,24 @@ const WORDS =[
                             }
                         ],
         "group":  "煩惱·不適·絕望",
-        "roots":  [],
+        "roots":  [
+
+                  ],
         "rootSummary":  "",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "synonyms":  [],
-        "similar":  [],
-        "antonyms":  [],
+        "derivatives":  [
+
+                        ],
+        "synonyms":  [
+
+                     ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
         "replaced":  null,
         "part":  2
     },
@@ -26434,11 +26731,21 @@ const WORDS =[
         "group":  "限制·封閉·託付",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "synonyms":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "synonyms":  [
+
+                     ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
         "replaced":  null,
         "part":  2
     },
@@ -26478,25 +26785,93 @@ const WORDS =[
                             }
                         ],
         "group":  "愉悅·滿足·寵愛",
-        "roots":  [],
-        "rootSummary":  "",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "examples":  [],
+        "derivatives":  [
+
+                        ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "replaced":  null,
+        "part":  2,
+        "roots":  [
+                      {
+                          "part":  "lav",
+                          "type":  "詞根",
+                          "zh":  "沖洗"
+                      },
+                      {
+                          "part":  "ish",
+                          "type":  "後綴",
+                          "zh":  "形容詞後綴"
+                      }
+                  ],
+        "rootSummary":  "花錢如水流沖洗般的=奢華的",
+        "examples":  [
+                         {
+                             "en":  "The decoration of the living room is so lavish.",
+                             "zh":  "客廳的裝修可真是奢華。",
+                             "hl":  false
+                         }
+                     ],
         "collocations":  {
                              "basic":  [
-
+                                           {
+                                               "en":  "lavish display of wealth",
+                                               "zh":  "炫耀財富",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "lavish use of resources",
+                                               "zh":  "浪費資源",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "lavish attention on sb.",
+                                               "zh":  "過分關注某人",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "lavish spending habits",
+                                               "zh":  "奢侈的消費習慣",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "lavish hospitality of sb.",
+                                               "zh":  "某人的盛情款待",
+                                               "hl":  false
+                                           }
                                        ],
                              "context":  [
 
                                          ]
                          },
-        "synonyms":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "replaced":  null,
-        "part":  2
+        "synonyms":  [
+                         {
+                             "en":  "plentiful",
+                             "zh":  "豐富的，充足的",
+                             "hl":  true
+                         },
+                         {
+                             "en":  "abundant",
+                             "zh":  "大量的，豐富的",
+                             "hl":  true
+                         },
+                         {
+                             "en":  "extravagant",
+                             "zh":  "奢侈的，揮霍的",
+                             "hl":  true
+                         },
+                         {
+                             "en":  "shower",
+                             "zh":  "大量給予；傾注",
+                             "hl":  false
+                         }
+                     ]
     },
     {
         "id":  "fabric",
@@ -26602,13 +26977,19 @@ const WORDS =[
                             }
                         ],
         "group":  "衣著·外觀·風格",
-        "roots":  [],
+        "roots":  [
+
+                  ],
         "rootSummary":  "",
         "mnemonic":  "",
         "note":  "",
         "starred":  false,
-        "synonyms":  [],
-        "antonyms":  [],
+        "synonyms":  [
+
+                     ],
+        "antonyms":  [
+
+                     ],
         "replaced":  null,
         "part":  2
     },
@@ -26666,7 +27047,9 @@ const WORDS =[
                             }
                         ],
         "group":  "邊緣·細節·觸感",
-        "roots":  [],
+        "roots":  [
+
+                  ],
         "rootSummary":  "",
         "mnemonic":  "",
         "note":  "",
@@ -26679,11 +27062,31 @@ const WORDS =[
 
                                          ]
                          },
-        "synonyms":  [],
-        "similar":  [],
-        "antonyms":  [],
+        "synonyms":  [
+
+                     ],
+        "antonyms":  [
+
+                     ],
         "replaced":  null,
-        "part":  2
+        "part":  2,
+        "similar":  [
+                        {
+                            "en":  "providential",
+                            "zh":  "天佑的；神意的",
+                            "hl":  true
+                        },
+                        {
+                            "en":  "provisional",
+                            "zh":  "臨時的，暫時的",
+                            "hl":  false
+                        },
+                        {
+                            "en":  "principal",
+                            "zh":  "校長；資本，本金；負責人",
+                            "hl":  false
+                        }
+                    ]
     },
     {
         "id":  "obnoxious",
@@ -26752,9 +27155,12 @@ const WORDS =[
         "group":  "煩惱·不適·絕望",
         "mnemonic":  "",
         "note":  "",
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
         "replaced":  null,
         "part":  2,
         "derivatives":  [
@@ -26790,7 +27196,20 @@ const WORDS =[
                              "zh":  "令人不快的，會引起反對的",
                              "hl":  false
                          }
-                     ]
+                     ],
+        "substitutes":  [
+                            {
+                                "en":  "repugnant",
+                                "pos":  "adj.",
+                                "zh":  "令人厭惡的；令人反感的",
+                                "note":  "情感負面，強調在道德或原則上令人極度反感與不相容。",
+                                "ex":  {
+                                           "en":  "repugnant behavior",
+                                           "zh":  "令人反感的行為"
+                                       },
+                                "hl":  false
+                            }
+                        ]
     },
     {
         "id":  "halt",
@@ -26825,18 +27244,6 @@ const WORDS =[
                              "hl":  false
                          }
                      ],
-        "collocations":  {
-                             "basic":  [
-                                           {
-                                               "en":  "come to a halt",
-                                               "zh":  "停下來",
-                                               "hl":  false
-                                           }
-                                       ],
-                             "context":  [
-
-                                         ]
-                         },
         "substitutes":  [
                             {
                                 "en":  "cease",
@@ -26851,17 +27258,63 @@ const WORDS =[
                             }
                         ],
         "group":  "限制·封閉·託付",
-        "roots":  [],
+        "roots":  [
+
+                  ],
         "rootSummary":  "",
         "mnemonic":  "",
         "note":  "",
         "starred":  false,
-        "derivatives":  [],
-        "synonyms":  [],
-        "similar":  [],
-        "antonyms":  [],
+        "derivatives":  [
+
+                        ],
+        "synonyms":  [
+
+                     ],
+        "similar":  [
+
+                    ],
         "replaced":  null,
-        "part":  2
+        "part":  2,
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "come to a halt",
+                                               "zh":  "停下來",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "grind to a halt",
+                                               "zh":  "逐漸停止",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "halt production",
+                                               "zh":  "停產",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "bring sb.'s progress to a halt",
+                                               "zh":  "使某人的進步停滯",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "call a halt to sb.'s activities",
+                                               "zh":  "停止某人的活動",
+                                               "hl":  true
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "antonyms":  [
+                         {
+                             "en":  "march",
+                             "zh":  "行軍，前進",
+                             "hl":  false
+                         }
+                     ]
     },
     {
         "id":  "bust",
@@ -26936,15 +27389,27 @@ const WORDS =[
                                          ]
                          },
         "group":  "破壞·衝突·犯罪",
-        "roots":  [],
+        "roots":  [
+
+                  ],
         "rootSummary":  "",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "synonyms":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "synonyms":  [
+
+                     ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
         "replaced":  null,
         "part":  2
     },
@@ -27042,12 +27507,30 @@ const WORDS =[
         "group":  "嚴格·秩序·監督",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "synonyms":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "synonyms":  [
+
+                     ],
+        "antonyms":  [
+
+                     ],
         "replaced":  null,
-        "part":  2
+        "part":  2,
+        "substitutes":  [
+                            {
+                                "en":  "capricious",
+                                "pos":  "adj.",
+                                "zh":  "反覆無常的，任性的",
+                                "note":  "情感偏負面，強調行為或決定善變且不可預測。",
+                                "ex":  {
+                                           "en":  "a capricious boss",
+                                           "zh":  "一位反覆無常的老闆"
+                                       },
+                                "hl":  true
+                            }
+                        ]
     },
     {
         "id":  "irregular",
@@ -27111,11 +27594,21 @@ const WORDS =[
         "group":  "方位·形狀·結構",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "synonyms":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "synonyms":  [
+
+                     ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
         "replaced":  null,
         "part":  2
     },
@@ -27160,6 +27653,24 @@ const WORDS =[
                              "hl":  true
                          }
                      ],
+        "group":  "言辭·表達·聲音",
+        "mnemonic":  "",
+        "note":  "",
+        "starred":  false,
+        "derivatives":  [
+
+                        ],
+        "synonyms":  [
+
+                     ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
+        "replaced":  null,
+        "part":  2,
         "collocations":  {
                              "basic":  [
                                            {
@@ -27171,23 +27682,44 @@ const WORDS =[
                                                "en":  "accept a compliment",
                                                "zh":  "接受讚美",
                                                "hl":  false
+                                           },
+                                           {
+                                               "en":  "compliment sb. on sth.",
+                                               "zh":  "因某事讚美某人",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "receive a compliment from sb.",
+                                               "zh":  "接受某人的讚美",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "give sb. a sincere compliment",
+                                               "zh":  "給某人真誠的讚美",
+                                               "hl":  false
                                            }
                                        ],
                              "context":  [
 
                                          ]
                          },
-        "group":  "言辭·表達·聲音",
-        "mnemonic":  "",
-        "note":  "",
-        "starred":  false,
-        "derivatives":  [],
-        "synonyms":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
-        "replaced":  null,
-        "part":  2
+        "similar":  [
+                        {
+                            "en":  "complaisant",
+                            "zh":  "彬彬有禮的，殷勤的，柔順的",
+                            "hl":  true
+                        },
+                        {
+                            "en":  "compliant",
+                            "zh":  "順從的，服從的，應允的",
+                            "hl":  true
+                        },
+                        {
+                            "en":  "complement",
+                            "zh":  "補充，補足",
+                            "hl":  true
+                        }
+                    ]
     },
     {
         "id":  "limelight",
@@ -27239,16 +27771,28 @@ const WORDS =[
                          "us":  "",
                          "uk":  ""
                      },
-        "roots":  [],
+        "roots":  [
+
+                  ],
         "rootSummary":  "",
         "mnemonic":  "",
         "note":  "",
         "starred":  false,
-        "derivatives":  [],
-        "synonyms":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "synonyms":  [
+
+                     ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
         "part":  2
     },
     {
@@ -27303,13 +27847,37 @@ const WORDS =[
         "group":  "數量·評估·範圍",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "synonyms":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "synonyms":  [
+
+                     ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
         "replaced":  null,
-        "part":  2
+        "part":  2,
+        "similar":  [
+                        {
+                            "en":  "volatile",
+                            "zh":  "易變的；情緒不穩定的",
+                            "hl":  true
+                        },
+                        {
+                            "en":  "mercantile",
+                            "zh":  "商人的，商業的",
+                            "hl":  true
+                        },
+                        {
+                            "en":  "visible",
+                            "zh":  "看得見的；明顯的",
+                            "hl":  false
+                        }
+                    ]
     },
     {
         "id":  "hostile",
@@ -27348,25 +27916,15 @@ const WORDS =[
                              "hl":  false
                          }
                      ],
-        "collocations":  {
-                             "basic":  [
-                                           {
-                                               "en":  "hostile forces",
-                                               "zh":  "敵對勢力",
-                                               "hl":  false
-                                           }
-                                       ],
-                             "context":  [
-
-                                         ]
-                         },
         "group":  "破壞·衝突·犯罪",
         "mnemonic":  "",
         "note":  "",
-        "synonyms":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "synonyms":  [
+
+                     ],
+        "antonyms":  [
+
+                     ],
         "replaced":  null,
         "part":  2,
         "derivatives":  [
@@ -27375,7 +27933,59 @@ const WORDS =[
                                 "pos":  "n.",
                                 "zh":  "敵對，敵意"
                             }
-                        ]
+                        ],
+        "substitutes":  [
+                            {
+                                "en":  "antagonistic",
+                                "pos":  "adj.",
+                                "zh":  "敵對的，對抗的",
+                                "note":  "情感負面，指主動表現出的強烈反對或敵意。",
+                                "ex":  {
+                                           "en":  "an antagonistic attitude",
+                                           "zh":  "敵對的態度"
+                                       },
+                                "hl":  false
+                            }
+                        ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "hostile forces",
+                                               "zh":  "敵對勢力",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "hostile takeover",
+                                               "zh":  "惡性接收；敵意接管",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "hostile environment",
+                                               "zh":  "惡劣的環境",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "sb.'s hostile work environment",
+                                               "zh":  "某人的惡劣工作環境",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "hostile attitude towards sb.",
+                                               "zh":  "對某人的敵意態度",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "similar":  [
+                        {
+                            "en":  "hostage",
+                            "zh":  "人質",
+                            "hl":  true
+                        }
+                    ]
     },
     {
         "id":  "assertion",
@@ -27394,13 +28004,6 @@ const WORDS =[
                            "hl":  false
                        }
                    ],
-        "examples":  [
-                         {
-                             "en":  "He made an assertion that aliens exist.",
-                             "zh":  "他斷言外星人存在。",
-                             "hl":  false
-                         }
-                     ],
         "substitutes":  [
                             {
                                 "en":  "contention",
@@ -27415,24 +28018,108 @@ const WORDS =[
                             }
                         ],
         "group":  "言辭·表達·聲音",
-        "roots":  [],
-        "rootSummary":  "",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
+        "derivatives":  [
+
+                        ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "replaced":  null,
+        "part":  2,
+        "roots":  [
+                      {
+                          "part":  "as",
+                          "type":  "前綴",
+                          "zh":  "向，到"
+                      },
+                      {
+                          "part":  "ser",
+                          "type":  "詞根",
+                          "zh":  "排成一行"
+                      },
+                      {
+                          "part":  "tion",
+                          "type":  "後綴",
+                          "zh":  "名詞後綴"
+                      }
+                  ],
+        "rootSummary":  "朝排列好的目標堅定前行=主張",
+        "examples":  [
+                         {
+                             "en":  "The ancient scientist had an assertion that the world was flat.",
+                             "zh":  "古代科學家曾有「地平說」的主張。",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "He made an assertion that aliens exist.",
+                             "zh":  "他斷言外星人存在。",
+                             "hl":  false
+                         }
+                     ],
         "collocations":  {
                              "basic":  [
-
+                                           {
+                                               "en":  "make an assertion",
+                                               "zh":  "做出斷言",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "assertion of independence",
+                                               "zh":  "獨立的聲明",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "assertion of authority",
+                                               "zh":  "權威的斷言",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "dispute over the questionable assertion",
+                                               "zh":  "對可疑觀點的爭論",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "contradict sb.'s false assertion",
+                                               "zh":  "反駁某人的錯誤斷言",
+                                               "hl":  false
+                                           }
                                        ],
                              "context":  [
 
                                          ]
                          },
-        "synonyms":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "replaced":  null,
-        "part":  2
+        "synonyms":  [
+                         {
+                             "en":  "declaration",
+                             "zh":  "宣言，聲明",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "contention",
+                             "zh":  "論點，主張",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "statement",
+                             "zh":  "陳述，聲明",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "asseveration",
+                             "zh":  "斷言，鄭重聲明",
+                             "hl":  true
+                         },
+                         {
+                             "en":  "averment",
+                             "zh":  "斷言，證明",
+                             "hl":  true
+                         }
+                     ]
     },
     {
         "id":  "scrupulous",
@@ -27464,13 +28151,20 @@ const WORDS =[
                       }
                   ],
         "rootSummary":  "顧慮周全的=小心謹慎的",
-        "examples":  [
-                         {
-                             "en":  "The player looks scrupulous when he adjusts his position to hit the ball.",
-                             "zh":  "這個參賽選手調整擊球位置時看起來很謹慎。",
-                             "hl":  false
-                         }
+        "group":  "嚴格·秩序·監督",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  [
+
+                        ],
+        "synonyms":  [
+
                      ],
+        "antonyms":  [
+
+                     ],
+        "replaced":  null,
+        "part":  2,
         "collocations":  {
                              "basic":  [
                                            {
@@ -27487,22 +28181,60 @@ const WORDS =[
                                                "en":  "scrupulous adherence to rules",
                                                "zh":  "嚴格遵守規則",
                                                "hl":  false
+                                           },
+                                           {
+                                               "en":  "sb.'s scrupulous adherence to rules",
+                                               "zh":  "某人對規則的嚴謹遵守",
+                                               "hl":  false
                                            }
                                        ],
                              "context":  [
 
                                          ]
                          },
-        "group":  "嚴格·秩序·監督",
-        "mnemonic":  "",
-        "note":  "",
-        "derivatives":  [],
-        "synonyms":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
-        "replaced":  null,
-        "part":  2
+        "similar":  [
+                        {
+                            "en":  "suspicious",
+                            "zh":  "可疑的；懷疑的，猜疑的；不信任的",
+                            "hl":  true
+                        },
+                        {
+                            "en":  "populous",
+                            "zh":  "人口稠密的，人口眾多的",
+                            "hl":  true
+                        },
+                        {
+                            "en":  "credulous",
+                            "zh":  "輕信的，因輕信而產生的",
+                            "hl":  true
+                        }
+                    ],
+        "examples":  [
+                         {
+                             "en":  "The player looks scrupulous when he adjusts his position to hit the ball.",
+                             "zh":  "這個參賽選手調整擊球位置時看起來很謹慎。",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "What a delightful man—scrupulous mind for business, sharp as a tack.",
+                             "zh":  "多招人喜歡的一個人啊——做生意小心謹慎，思維敏捷。",
+                             "src":  "罪惡黑名單 S01E20",
+                             "hl":  false
+                         }
+                     ],
+        "substitutes":  [
+                            {
+                                "en":  "meticulous",
+                                "pos":  "adj.",
+                                "zh":  "一絲不苟的；謹小慎微的",
+                                "note":  "情感中性，強調對細節極致的關注與精確。",
+                                "ex":  {
+                                           "en":  "meticulous planning",
+                                           "zh":  "周密的計劃"
+                                       },
+                                "hl":  false
+                            }
+                        ]
     },
     {
         "id":  "unanimous",
@@ -27571,11 +28303,21 @@ const WORDS =[
         "group":  "嚴格·秩序·監督",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "synonyms":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "synonyms":  [
+
+                     ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
         "replaced":  null,
         "part":  2
     },
@@ -27673,10 +28415,18 @@ const WORDS =[
         "group":  "數量·評估·範圍",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
         "replaced":  null,
         "part":  2
     },
@@ -27769,10 +28519,18 @@ const WORDS =[
         "group":  "地形·自然·地質",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "synonyms":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "synonyms":  [
+
+                     ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
         "replaced":  null,
         "part":  2
     },
@@ -27865,10 +28623,18 @@ const WORDS =[
         "mnemonic":  "",
         "note":  "",
         "starred":  false,
-        "derivatives":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
         "replaced":  null,
         "part":  2
     },
@@ -27961,12 +28727,34 @@ const WORDS =[
         "group":  "衣著·外觀·風格",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "synonyms":  [],
-        "similar":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "similar":  [
+
+                    ],
+        "substitutes":  [
+
+                        ],
         "replaced":  null,
-        "part":  2
+        "part":  2,
+        "synonyms":  [
+                         {
+                             "en":  "mincing",
+                             "zh":  "(舉止)裝腔作勢的，忸怩作態的",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "nice",
+                             "zh":  "精緻的；細微的",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "niminy-piminy",
+                             "zh":  "矯揉造作的",
+                             "hl":  true
+                         }
+                     ]
     },
     {
         "id":  "physique",
@@ -28057,10 +28845,18 @@ const WORDS =[
         "group":  "醫療·健康·防護",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "synonyms":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "synonyms":  [
+
+                     ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
         "replaced":  null,
         "part":  2
     },
@@ -28158,10 +28954,18 @@ const WORDS =[
         "group":  "煩惱·不適·絕望",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
         "replaced":  null,
         "part":  2
     },
@@ -28187,13 +28991,6 @@ const WORDS =[
                            "hl":  true
                        }
                    ],
-        "examples":  [
-                         {
-                             "en":  "He strapped the luggage tightly to the roof rack of the car.",
-                             "zh":  "他把行李牢牢地綁在車的行李架上。",
-                             "hl":  false
-                         }
-                     ],
         "collocations":  {
                              "basic":  [
                                            {
@@ -28230,16 +29027,52 @@ const WORDS =[
                             }
                         ],
         "group":  "飲食·物品·展示",
-        "roots":  [],
+        "roots":  [
+
+                  ],
         "rootSummary":  "",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "synonyms":  [],
-        "similar":  [],
-        "antonyms":  [],
+        "synonyms":  [
+
+                     ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
         "replaced":  null,
-        "part":  2
+        "part":  2,
+        "examples":  [
+                         {
+                             "en":  "He strapped the luggage tightly to the roof rack of the car.",
+                             "zh":  "他把行李牢牢地綁在車的行李架上。",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "Strap yourself in before driving.",
+                             "zh":  "開車前先為自己繫上安全帶。",
+                             "hl":  false
+                         }
+                     ],
+        "derivatives":  [
+                            {
+                                "en":  "strapping",
+                                "pos":  "adj.",
+                                "zh":  "魁梧的，高大健壯的"
+                            },
+                            {
+                                "en":  "strapped",
+                                "pos":  "adj.",
+                                "zh":  "身無分文的"
+                            },
+                            {
+                                "en":  "strapless",
+                                "pos":  "adj.",
+                                "zh":  "無背帶的；無肩帶的"
+                            }
+                        ]
     },
     {
         "id":  "strand",
@@ -28270,18 +29103,6 @@ const WORDS =[
                              "hl":  false
                          }
                      ],
-        "collocations":  {
-                             "basic":  [
-                                           {
-                                               "en":  "strand of hair",
-                                               "zh":  "一縷頭髮",
-                                               "hl":  true
-                                           }
-                                       ],
-                             "context":  [
-
-                                         ]
-                         },
         "substitutes":  [
                             {
                                 "en":  "fiber",
@@ -28296,16 +29117,77 @@ const WORDS =[
                             }
                         ],
         "group":  "地形·自然·地質",
-        "roots":  [],
+        "roots":  [
+
+                  ],
         "rootSummary":  "",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "synonyms":  [],
-        "similar":  [],
-        "antonyms":  [],
+        "derivatives":  [
+
+                        ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
         "replaced":  null,
-        "part":  2
+        "part":  2,
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "strand of hair",
+                                               "zh":  "一縷頭髮",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "strand of DNA",
+                                               "zh":  "DNA 鏈",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "strand of her long hair",
+                                               "zh":  "她長髮的一縷",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "strand sb. on a deserted island",
+                                               "zh":  "把某人遺棄在荒島",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "strand of pearls around sb.'s neck",
+                                               "zh":  "某人脖子上的一串珍珠",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "synonyms":  [
+                         {
+                             "en":  "abandon",
+                             "zh":  "拋棄，遺棄",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "string",
+                             "zh":  "一串；線，細繩",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "trap",
+                             "zh":  "困住，使受困",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "run aground",
+                             "zh":  "擱淺",
+                             "hl":  false
+                         }
+                     ]
     },
     {
         "id":  "invaluable",
@@ -28369,11 +29251,21 @@ const WORDS =[
         "group":  "數量·評估·範圍",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "synonyms":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
+        "derivatives":  [
+
+                        ],
+        "synonyms":  [
+
+                     ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
         "replaced":  null,
         "part":  2
     },
@@ -28449,15 +29341,42 @@ const WORDS =[
                             }
                         ],
         "group":  "法律·訴訟·裁決",
-        "roots":  [],
+        "roots":  [
+
+                  ],
         "rootSummary":  "",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "synonyms":  [],
-        "antonyms":  [],
+        "synonyms":  [
+
+                     ],
+        "antonyms":  [
+
+                     ],
         "replaced":  null,
-        "part":  2
+        "part":  2,
+        "derivatives":  [
+                            {
+                                "en":  "warranted",
+                                "pos":  "adj.",
+                                "zh":  "有正當理由的；需要的"
+                            },
+                            {
+                                "en":  "warrantor",
+                                "pos":  "n.",
+                                "zh":  "保證人"
+                            },
+                            {
+                                "en":  "warrantee",
+                                "pos":  "n.",
+                                "zh":  "被保證人"
+                            },
+                            {
+                                "en":  "warranty",
+                                "pos":  "n.",
+                                "zh":  "保修單，保修卡"
+                            }
+                        ]
     },
     {
         "id":  "displacement",
@@ -28503,11 +29422,40 @@ const WORDS =[
 
                                          ]
                          },
+        "group":  "移動·轉向·時間",
+        "phonetic":  {
+                         "us":  "",
+                         "uk":  ""
+                     },
+        "roots":  [
+
+                  ],
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "starred":  false,
+        "derivatives":  [
+
+                        ],
+        "examples":  [
+
+                     ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "substitutes":  [
+
+                        ],
+        "replaced":  null,
+        "part":  2,
         "synonyms":  [
                          {
                              "en":  "dislodgment",
-                             "zh":  "逐出，移開",
-                             "hl":  false
+                             "zh":  "趕出；移動",
+                             "hl":  true
                          },
                          {
                              "en":  "dispossession",
@@ -28519,24 +29467,7 @@ const WORDS =[
                              "zh":  "置換反應",
                              "hl":  false
                          }
-                     ],
-        "group":  "移動·轉向·時間",
-        "phonetic":  {
-                         "us":  "",
-                         "uk":  ""
-                     },
-        "roots":  [],
-        "rootSummary":  "",
-        "mnemonic":  "",
-        "note":  "",
-        "starred":  false,
-        "derivatives":  [],
-        "examples":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "substitutes":  [],
-        "replaced":  null,
-        "part":  2
+                     ]
     },
     {
         "id":  "refinement",
@@ -28603,14 +29534,24 @@ const WORDS =[
                             }
                         ],
         "group":  "繁榮·復甦·成長",
-        "roots":  [],
+        "roots":  [
+
+                  ],
         "rootSummary":  "",
         "mnemonic":  "",
         "note":  "",
-        "derivatives":  [],
-        "synonyms":  [],
-        "similar":  [],
-        "antonyms":  [],
+        "derivatives":  [
+
+                        ],
+        "synonyms":  [
+
+                     ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
         "replaced":  null,
         "part":  2
     },
@@ -28643,6 +29584,37 @@ const WORDS =[
                              "hl":  false
                          }
                      ],
+        "substitutes":  [
+                            {
+                                "en":  "feed",
+                                "pos":  "v.",
+                                "zh":  "餵養；供給食物",
+                                "note":  "情感中立，是「餵養」最通用、最直接的表達。",
+                                "ex":  {
+                                           "en":  "feed the cattle",
+                                           "zh":  "餵牛"
+                                       },
+                                "hl":  false
+                            }
+                        ],
+        "group":  "動物·生態·生物",
+        "roots":  [
+
+                  ],
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  [
+
+                        ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "replaced":  null,
+        "part":  2,
         "collocations":  {
                              "basic":  [
                                            {
@@ -28659,36 +29631,34 @@ const WORDS =[
                                                "en":  "provide fodder for sb.'s animals",
                                                "zh":  "為某人的動物提供飼料",
                                                "hl":  false
+                                           },
+                                           {
+                                               "en":  "fodder shortage in winter",
+                                               "zh":  "冬季飼料短缺",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "purchase fodder from a supplier",
+                                               "zh":  "從供應商購買飼料",
+                                               "hl":  false
                                            }
                                        ],
                              "context":  [
 
                                          ]
                          },
-        "substitutes":  [
-                            {
-                                "en":  "feed",
-                                "pos":  "v.",
-                                "zh":  "餵養；供給食物",
-                                "note":  "情感中立，是「餵養」最通用、最直接的表達。",
-                                "ex":  {
-                                           "en":  "feed the cattle",
-                                           "zh":  "餵牛"
-                                       },
-                                "hl":  false
-                            }
-                        ],
-        "group":  "動物·生態·生物",
-        "roots":  [],
-        "rootSummary":  "",
-        "mnemonic":  "",
-        "note":  "",
-        "derivatives":  [],
-        "synonyms":  [],
-        "similar":  [],
-        "antonyms":  [],
-        "replaced":  null,
-        "part":  2
+        "synonyms":  [
+                         {
+                             "en":  "feedstuff",
+                             "zh":  "飼料",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "provender",
+                             "zh":  "飼料，糧草",
+                             "hl":  false
+                         }
+                     ]
     },
     {
         "id":  "reminiscent",
@@ -28725,14 +29695,6 @@ const WORDS =[
                       }
                   ],
         "rootSummary":  "讓人再次記住其他相關事務的=使人聯想……的",
-        "examples":  [
-                         {
-                             "en":  "This is oddly reminiscent of a dinner with my family.",
-                             "zh":  "這裡莫名讓我聯想起我家共進晚餐的畫面。",
-                             "src":  "小謝爾頓 S02E07",
-                             "hl":  false
-                         }
-                     ],
         "collocations":  {
                              "basic":  [
                                            {
@@ -28753,12 +29715,753 @@ const WORDS =[
         "group":  "認知·知識·學習",
         "mnemonic":  "",
         "note":  "",
+        "derivatives":  [
+
+                        ],
+        "synonyms":  [
+
+                     ],
+        "similar":  [
+
+                    ],
+        "antonyms":  [
+
+                     ],
+        "replaced":  null,
+        "part":  2,
+        "examples":  [
+                         {
+                             "en":  "This is oddly reminiscent of a dinner with my family.",
+                             "zh":  "這裡莫名讓我聯想起我家共進晚餐的畫面。",
+                             "src":  "小謝爾頓 S02E07",
+                             "hl":  false
+                         },
+                         {
+                             "en":  "The old photograph was reminiscent of our childhood adventures.",
+                             "zh":  "這張老照片讓人懷念我們的童年冒險。",
+                             "hl":  true
+                         }
+                     ],
+        "substitutes":  [
+                            {
+                                "en":  "evocative",
+                                "pos":  "adj.",
+                                "zh":  "喚起回憶的，引起感情的",
+                                "note":  "情感積極，側重於強烈地喚起情感、記憶或畫面。",
+                                "ex":  {
+                                           "en":  "evocative of a bygone era",
+                                           "zh":  "令人回想起一個逝去的時代"
+                                       },
+                                "hl":  true
+                            }
+                        ]
+    },
+    {
+        "id":  "caption",
+        "word":  "caption",
+        "pos":  "n",
+        "posSure":  true,
+        "senses":  [
+                       {
+                           "pos":  "n.",
+                           "zh":  "(圖片、影片的)說明文字，字幕",
+                           "hl":  true
+                       }
+                   ],
+        "examples":  [
+                         {
+                             "en":  "The caption reveals what we are to watch is a horror movie.",
+                             "zh":  "字幕顯示，我們將看一部恐怖電影。",
+                             "hl":  true
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "closed captions",
+                                               "zh":  "隱藏式字幕",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "add captions",
+                                               "zh":  "添加字幕",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "movie captions",
+                                               "zh":  "電影字幕",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "replaced":  {
+                         "en":  "subtitle",
+                         "zh":  "副標題；字幕；給…加字幕"
+                     },
+        "group":  "言辭·表達·聲音",
+        "phonetic":  {
+                         "us":  "",
+                         "uk":  ""
+                     },
+        "roots":  [],
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "starred":  false,
+        "derivatives":  [],
+        "synonyms":  [],
+        "similar":  [],
+        "antonyms":  [],
+        "substitutes":  [],
+        "part":  2
+    },
+    {
+        "id":  "depreciation",
+        "word":  "depreciation",
+        "phonetic":  {
+                         "us":  "/dɪˌpriːʃi'eɪʃn/",
+                         "uk":  "/dɪˌpriːʃi'eɪʃn/"
+                     },
+        "pos":  "n",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "n.",
+                           "zh":  "(貨幣的)貶值；減價；折舊；蔑視；(資產等)折舊，貶值",
+                           "hl":  true
+                       }
+                   ],
+        "examples":  [
+                         {
+                             "en":  "Bitcoin, amidst perpetual risk and danger, undergoes a sudden depreciation.",
+                             "zh":  "時常面臨風險的比特幣，迎來了突如其來的貶值。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "depreciation rate",
+                                               "zh":  "折舊率",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "depreciation expense",
+                                               "zh":  "折舊費用",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "substitutes":  [
+                            {
+                                "en":  "devaluation",
+                                "pos":  "n.",
+                                "zh":  "(貨幣)貶值",
+                                "note":  "情感中性，指政府或央行主動降低貨幣官方匯率的行為。",
+                                "ex":  {
+                                           "en":  "currency devaluation",
+                                           "zh":  "貨幣貶值"
+                                       },
+                                "hl":  false
+                            }
+                        ],
+        "group":  "商業·經濟·貿易",
+        "roots":  [],
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  [],
+        "synonyms":  [],
+        "similar":  [],
+        "antonyms":  [],
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "apparel",
+        "word":  "apparel",
+        "pos":  "n",
+        "posSure":  true,
+        "senses":  [
+                       {
+                           "pos":  "n.",
+                           "zh":  "服裝；衣物",
+                           "hl":  true
+                       }
+                   ],
+        "examples":  [
+                         {
+                             "en":  "\"I have so many pretty pieces of apparel!\" said the girl.",
+                             "zh":  "這個女孩說：「我有很多漂亮衣服。」",
+                             "hl":  true
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "the apparel industry",
+                                               "zh":  "服裝業",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "women's apparel",
+                                               "zh":  "女裝",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "children's apparel",
+                                               "zh":  "兒童服裝",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "replaced":  {
+                         "en":  "clothing",
+                         "zh":  "衣服；(某種)服裝"
+                     },
+        "group":  "衣著·外觀·風格",
+        "phonetic":  {
+                         "us":  "",
+                         "uk":  ""
+                     },
+        "roots":  [],
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "starred":  false,
+        "derivatives":  [],
+        "synonyms":  [],
+        "similar":  [],
+        "antonyms":  [],
+        "substitutes":  [],
+        "part":  2
+    },
+    {
+        "id":  "covet",
+        "word":  "covet",
+        "pos":  "v",
+        "posSure":  true,
+        "senses":  [
+                       {
+                           "pos":  "v.",
+                           "zh":  "覬覦；垂涎",
+                           "hl":  true
+                       }
+                   ],
+        "note":  "從形近詞列表挑出來的（同列的 come、comedy 已用紅線劃掉，未錄入）",
+        "group":  "愉悅·滿足·寵愛",
+        "phonetic":  {
+                         "us":  "",
+                         "uk":  ""
+                     },
+        "roots":  [],
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "starred":  false,
+        "derivatives":  [],
+        "examples":  [],
+        "collocations":  {
+                             "basic":  [
+
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "synonyms":  [],
+        "similar":  [],
+        "antonyms":  [],
+        "substitutes":  [],
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "diction",
+        "word":  "diction",
+        "phonetic":  {
+                         "us":  "/'dɪkʃn/",
+                         "uk":  "/'dɪkʃn/"
+                     },
+        "pos":  "n",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "n.",
+                           "zh":  "措辭；吐字，發音",
+                           "hl":  true
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "dict",
+                          "type":  "詞根",
+                          "zh":  "說，宣稱"
+                      },
+                      {
+                          "part":  "ion",
+                          "type":  "後綴",
+                          "zh":  "名詞後綴"
+                      }
+                  ],
+        "rootSummary":  "說話時的狀態=措詞",
+        "examples":  [
+                         {
+                             "en":  "He will choose the appropriate diction depending on whether he is speaking or writing.",
+                             "zh":  "他會根據自己是在說還是在寫來選擇合適的措辭。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "clear diction",
+                                               "zh":  "清晰的發音",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "proper diction",
+                                               "zh":  "正確的措辭",
+                                               "hl":  true
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "group":  "言辭·表達·聲音",
+        "mnemonic":  "",
+        "note":  "",
         "derivatives":  [],
         "synonyms":  [],
         "similar":  [],
         "antonyms":  [],
         "substitutes":  [],
         "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "disclose",
+        "word":  "disclose",
+        "phonetic":  {
+                         "us":  "/dɪs'kloʊz/",
+                         "uk":  "/dɪs'kləʊz/"
+                     },
+        "pos":  "v",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "v.",
+                           "zh":  "公開，揭露",
+                           "hl":  true
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "dis",
+                          "type":  "前綴",
+                          "zh":  "分離"
+                      },
+                      {
+                          "part":  "close",
+                          "type":  "詞根",
+                          "zh":  "關閉"
+                      }
+                  ],
+        "rootSummary":  "不處於關閉狀態=揭露",
+        "examples":  [
+                         {
+                             "en":  "He disclosed the classified document to the public.",
+                             "zh":  "他把機密文件公之於眾了。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "disclose information",
+                                               "zh":  "資訊披露",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "disclose a secret",
+                                               "zh":  "透露秘密",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "group":  "言辭·表達·聲音",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  [],
+        "synonyms":  [],
+        "similar":  [],
+        "antonyms":  [],
+        "substitutes":  [],
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "kindle",
+        "word":  "kindle",
+        "phonetic":  {
+                         "us":  "/'kɪndl/",
+                         "uk":  "/'kɪndl/"
+                     },
+        "pos":  "v",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "v.",
+                           "zh":  "點燃，激起；著火；照亮；煽動",
+                           "hl":  true
+                       }
+                   ],
+        "examples":  [
+                         {
+                             "en":  "The man needs to kindle the fire to stay warm.",
+                             "zh":  "這個男人需要點火來保持溫暖。",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "kindle a fire",
+                                               "zh":  "點燃火焰",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "kindle interest",
+                                               "zh":  "激發興趣",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "kindle excitement",
+                                               "zh":  "引起興奮",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "substitutes":  [
+                            {
+                                "en":  "arouse",
+                                "pos":  "v.",
+                                "zh":  "激起，喚起",
+                                "note":  "情感中性，常用於正式語境，指喚起某種強烈的情感或反應。",
+                                "ex":  {
+                                           "en":  "arouse suspicion",
+                                           "zh":  "引起懷疑"
+                                       },
+                                "hl":  false
+                            }
+                        ],
+        "group":  "光·閃耀·明亮",
+        "roots":  [],
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "similar":  [],
+        "antonyms":  [],
+        "replaced":  null,
+        "part":  2,
+        "derivatives":  [
+                            {
+                                "en":  "kindling",
+                                "pos":  "n.",
+                                "zh":  "點火；引火物"
+                            }
+                        ],
+        "synonyms":  [
+                         {
+                             "en":  "enkindle",
+                             "zh":  "煽動；點燃(感情、怒氣等)",
+                             "hl":  true
+                         },
+                         {
+                             "en":  "inflame",
+                             "zh":  "使燃燒；激怒",
+                             "hl":  false
+                         }
+                     ]
+    },
+    {
+        "id":  "combustible",
+        "word":  "combustible",
+        "pos":  "n",
+        "posSure":  true,
+        "senses":  [
+                       {
+                           "pos":  "n.",
+                           "zh":  "可燃物",
+                           "hl":  true
+                       },
+                       {
+                           "pos":  "adj.",
+                           "zh":  "易燃的",
+                           "hl":  true
+                       }
+                   ],
+        "examples":  [
+                         {
+                             "en":  "Paper and dry wood are highly combustible.",
+                             "zh":  "紙和乾木材極易燃。",
+                             "hl":  true
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "combustible material",
+                                               "zh":  "可燃材料",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "combustible gas",
+                                               "zh":  "可燃氣體",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "highly combustible",
+                                               "zh":  "高度易燃的",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "replaced":  {
+                         "en":  "fuel",
+                         "zh":  "燃料；刺激因素；刺激，激起；給…加燃料"
+                     },
+        "group":  "飲食·物品·展示",
+        "phonetic":  {
+                         "us":  "",
+                         "uk":  ""
+                     },
+        "roots":  [],
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "starred":  false,
+        "derivatives":  [],
+        "synonyms":  [],
+        "similar":  [],
+        "antonyms":  [],
+        "substitutes":  [],
+        "part":  2
+    },
+    {
+        "id":  "vesicle",
+        "word":  "vesicle",
+        "pos":  "n",
+        "posSure":  true,
+        "senses":  [
+                       {
+                           "pos":  "n.",
+                           "zh":  "【生】囊泡；【地】氣孔",
+                           "hl":  true
+                       }
+                   ],
+        "examples":  [
+                         {
+                             "en":  "A synaptic vesicle releases neurotransmitters.",
+                             "zh":  "突觸小泡會釋放神經傳導物質。",
+                             "hl":  true
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "a synaptic vesicle",
+                                               "zh":  "一個突觸小泡",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "vesicle formation",
+                                               "zh":  "囊泡形成",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "replaced":  {
+                         "en":  "bubble",
+                         "zh":  "氣泡，泡沫；肥皂泡；泡影；幻想，妄想"
+                     },
+        "group":  "動物·生態·生物",
+        "phonetic":  {
+                         "us":  "",
+                         "uk":  ""
+                     },
+        "roots":  [],
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "starred":  false,
+        "derivatives":  [],
+        "synonyms":  [],
+        "similar":  [],
+        "antonyms":  [],
+        "substitutes":  [],
+        "part":  2
+    },
+    {
+        "id":  "whisker",
+        "word":  "whisker",
+        "phonetic":  {
+                         "us":  "/'wɪskər/",
+                         "uk":  "/'wɪskə(r)/"
+                     },
+        "pos":  "n",
+        "posSure":  true,
+        "starred":  true,
+        "senses":  [
+                       {
+                           "pos":  "n.",
+                           "zh":  "鬍鬚；腮鬚",
+                           "hl":  false
+                       }
+                   ],
+        "roots":  [
+                      {
+                          "part":  "whisk",
+                          "type":  "詞根",
+                          "zh":  "掃動"
+                      },
+                      {
+                          "part":  "er",
+                          "type":  "後綴",
+                          "zh":  "名詞後綴"
+                      }
+                  ],
+        "rootSummary":  "動物臉上掃動的部分=鬍鬚",
+        "examples":  [
+                         {
+                             "en":  "The kitten's whiskers are long!",
+                             "zh":  "小貓咪的鬍鬚可真長！",
+                             "hl":  false
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "cat whiskers",
+                                               "zh":  "貓的鬍鬚",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "whisker away",
+                                               "zh":  "緊挨著",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "sb.'s cat with white whiskers",
+                                               "zh":  "某人的白鬍鬚貓",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "group":  "動物·生態·生物",
+        "mnemonic":  "",
+        "note":  "",
+        "derivatives":  [],
+        "synonyms":  [],
+        "similar":  [],
+        "antonyms":  [],
+        "substitutes":  [],
+        "replaced":  null,
+        "part":  2
+    },
+    {
+        "id":  "symposium",
+        "word":  "symposium",
+        "pos":  "n",
+        "posSure":  true,
+        "senses":  [
+                       {
+                           "pos":  "n.",
+                           "zh":  "專題討論會；研討會",
+                           "hl":  true
+                       }
+                   ],
+        "examples":  [
+                         {
+                             "en":  "A teacher and some students are holding a math symposium.",
+                             "zh":  "一位老師和一些學生正在開數學研討會。",
+                             "hl":  true
+                         }
+                     ],
+        "collocations":  {
+                             "basic":  [
+                                           {
+                                               "en":  "a medical symposium",
+                                               "zh":  "一個醫學專題研討會",
+                                               "hl":  true
+                                           },
+                                           {
+                                               "en":  "symposium room",
+                                               "zh":  "研討會室",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "attend a symposium",
+                                               "zh":  "參加研討會",
+                                               "hl":  false
+                                           },
+                                           {
+                                               "en":  "symposium presentation",
+                                               "zh":  "研討會演示",
+                                               "hl":  false
+                                           }
+                                       ],
+                             "context":  [
+
+                                         ]
+                         },
+        "replaced":  {
+                         "en":  "seminar",
+                         "zh":  "研討會；研究班；研究課程"
+                     },
+        "group":  "言辭·表達·聲音",
+        "phonetic":  {
+                         "us":  "",
+                         "uk":  ""
+                     },
+        "roots":  [],
+        "rootSummary":  "",
+        "mnemonic":  "",
+        "note":  "",
+        "starred":  false,
+        "derivatives":  [],
+        "synonyms":  [],
+        "similar":  [],
+        "antonyms":  [],
+        "substitutes":  [],
         "part":  2
     }
 ];

@@ -2,7 +2,7 @@
 
 雙擊 `index.html` 就能開（不需要架伺服器）。`index.html` 和 `words.js` **必須放在同一個資料夾**。
 
-- **254 個單字**，全部繁體中文
+- **318 個單字**（Part 1：254、Part 2：64），全部繁體中文
 - 音標／釋義／詞根詞綴以截圖內容為準；色卡（近義／形近／反義）的中文若截圖沒給，補上通用釋義，讓每個色卡點下去都看得到意思
 
 ### 手寫標記怎麼被讀進來
@@ -13,11 +13,21 @@
 | **紅線劃掉** | 該詞（或該行形近詞／同義替換）**不錄入** |
 | **綠色 S 形圈住整張卡** | 主詞太簡單，改錄卡片裡的**同義替換詞**，例句也換成該同義詞；被替換掉的原詞用**洋紅色**標在卡片上 |
 
-目前用綠圈替換掉的有 5 組：`replenish`←restock、`servitude`←slavery、`custodian`←guardian、`industrious`←diligent、`rearward`←backward。
+目前用綠圈替換掉的有 14 組：
+
+| 收錄的詞 | 替換掉的原詞 | | 收錄的詞 | 替換掉的原詞 |
+|---|---|---|---|---|
+| `replenish` | restock | | `neonate` | infant |
+| `servitude` | slavery | | `preserve` | jam |
+| `custodian` | guardian | | `lethal` | fatal |
+| `industrious` | diligent | | `limelight` | spotlight |
+| `rearward` | backward | | `caption` | subtitle |
+| `apparel` | clothing | | `combustible` | fuel |
+| `vesicle` | bubble | | `symposium` | seminar |
 
 ### Part 分批
 
-單字量會一直長，頂端有 **Part 選單**可以只看某一批。目前 254 個詞全部是 **Part 1**；Part 2、Part 3 是空的，之後新增時把 `part` 填 2 或 3 就會歸到那一批。
+單字量會一直長，頂端有 **Part 選單**可以只看某一批。目前 **Part 1：254 個、Part 2：64 個**，Part 3 還是空的；之後新增時把 `part` 填 3 就會歸到那一批。
 
 ---
 
